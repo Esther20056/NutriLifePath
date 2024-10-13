@@ -1,0 +1,118 @@
+/* General styling for the about section */
+.about {
+    background-color: #f7fbff;
+    color: var(--SlateBlue);  
+    font-size: 1.1rem;        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:8rem 2rem 3rem 2rem;         
+    gap: 2rem;                
+    text-align: justify;  
+}
+
+/* Wrappers around text blocks */
+.text-wrapper {
+    width: 100%;
+}
+
+.about-text-h3 {
+    font-size: 1.6rem;
+    font-weight: 600; 
+    color: var(--SlateBlue);  
+    margin-bottom: 1rem; 
+    font-family: "Playfair Display", serif;
+}
+
+/* Paragraph text */
+.about-text {
+    font-size: 1.1rem;  
+    line-height: 1.7; 
+    margin-bottom: 0.5rem;
+    font-family: "Lato", sans-serif;   
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    margin-bottom: 1rem;
+    font-size: 1.08rem;
+}
+
+.small-header {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--SlateBlue);
+}
+
+.cta-wrapper {
+    margin-top: 3rem;
+}
+
+.cta-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-family: "Playfair Display", serif;
+}
+
+.cta-text {
+    font-size: 1.15rem;
+    margin-bottom: 1.8rem;
+    font-family: "Lato", sans-serif; 
+}
+
+.cta-button {
+    background-color: var(--GoldenYellow);
+    color: #000;
+    height: 3.5rem;
+    width: 10rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Raleway", sans-serif;
+}
+
+.cta-button:hover {
+    background-color: var(--SlateBlue);
+    color: var(--GoldenYellow);
+}
+@media (min-width:768px) and (max-width: 992px){
+    .about {
+        padding:8rem 2rem 3rem 2rem !important;
+    }
+}
+@media (max-width: 992px) {
+    .about {
+        padding:8rem 1rem 3rem 1rem !important;
+        font-size: 1rem; text-align: center;
+    }
+
+    .text-wrapper {
+        max-width: 100%; 
+    }
+
+    .about-text-h3 {
+        font-size: 1.4rem;
+    }
+
+    .about-text {
+        font-size: 1rem;
+          line-height: 1.4;
+    }
+
+    .cta-heading {
+        font-size: 1.6rem;
+    }
+
+    .cta-text {
+        font-size: 1rem;
+    }
+}

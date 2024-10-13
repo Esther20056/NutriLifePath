@@ -1,0 +1,162 @@
+.sea-footer{
+  background-color: #6b8e23;
+  height:50vh;
+  position: relative;
+  overflow: hidden;
+  color: #F1E5AC;
+  font-family: "Lato", sans-serif;
+}
+
+.sea-footer::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200%;
+  height: 25vh;
+  background: #a8d08d;
+  clip-path: polygon(0% 100%, 10% 70%, 20% 80%, 30% 65%, 40% 75%, 50% 70%, 60% 80%, 70% 65%, 80% 75%, 90% 70%, 100% 100%, 100% 100%, 0% 100%);
+  z-index: 0;
+  animation: wave 9s linear infinite;
+  transform: scale(1.5) translateX(0);
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0) scale(1.5);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.5);
+  }
+  100% {
+    transform: translateX(0) scale(1.5);
+  }
+}
+
+/* Content Layout */
+.sea-footer .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  color: #F1E5AC; 
+  font-size: 1rem;
+  padding:2rem;
+  z-index: 1;
+}
+
+/* Individual Sections */
+.footer-contents-wrapper {
+  flex-basis: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0;
+}
+
+.footer-contents-wrapper ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.footer-contents-wrapper ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.nutrilife-text {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #F1E5AC;
+  margin-bottom: 1rem;
+}
+
+.header-text {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #F1E5AC;
+}
+.quick-links li,
+.quick-links li a {
+  color: #F1E5AC;
+  font-size: 1rem;
+  padding: 0.3rem 0;
+  transition: color 0.3s;
+}
+
+.quick-links li:hover,
+.quick-links li a:hover {
+  color: #e3ce65;
+}
+
+.quick-links li {
+  margin-bottom: 0.5rem;
+}
+
+.quick-links li a {
+  text-decoration: none;
+}
+.social-platforms {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-platforms a {
+  font-size: 2rem;
+  color: #F1E5AC;
+  transition: color 0.3s;
+}
+
+.social-platforms a:hover {
+  color: #e3ce65;
+}
+
+@media (max-width: 1200px) {
+  .sea-footer{
+    height: 100%;
+  }
+  .sea-footer .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .footer-contents-wrapper {
+    flex-basis: 22%;
+  }
+}
+
+@media (max-width: 800px) {
+  .sea-footer{
+    height: 100%;
+  }
+  .sea-footer .content {
+ display: grid;
+ grid-template-columns: 1fr;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer-contents-wrapper {
+    flex-basis: 100%;
+    text-align: justify;
+  }
+
+  .social-platforms {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .social-platforms a {
+    font-size: 1.5rem; 
+  }
+}

@@ -1,0 +1,252 @@
+.newsletter-mainwrapper{
+    display: flex;
+    gap:1.5rem;
+    width: 80vw;
+    min-height:30vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7fbff;
+    border-top:4px solid var(--OliveGreen);
+    border-left: 4px solid var(--OliveGreen);
+    border-right: 4px solid var(--GoldenYellow);
+    border-bottom: 4px solid var(--GoldenYellow);
+    border-radius: 2rem;
+    margin:2rem auto;
+    padding:1.5rem;
+    font-family: "Lato", sans-serif;
+}
+.newsletter-form{
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:1rem;
+}
+.newsletter-form input{
+    padding:1.45rem;
+    background-color: rgba(112, 128, 144,0.4);
+    width: 100%;
+    height: 4rem;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 1.08rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.newsletter-button{
+    width: 10rem;
+    height: 4rem;
+    background-color: var(--GoldenYellow);
+    padding:1.18rem;
+    outline: none;
+    border-top-right-radius:1rem;
+    border-bottom-right-radius:1rem;
+    border:none;
+    color: var(--CharcoalGrey);
+    font-family: "Raleway", sans-serif;
+}
+.newsletter-mainwrapper .img-container{
+    flex-basis: 40%;
+}
+.text-container p{
+    color: var(--SlateBlue);
+}
+.newsletter-mainwrapper .text-container{
+    flex-basis: 70%;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-mainwrapper .img-container img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+  /* Stye for Signup/Login */
+  .signup-form {
+    background-color: #f7fbff;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding:8rem 0 3rem 0;
+    font-family: "Lato", sans-serif;
+    color: var(--SlateBlue);
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.form-text {
+    font-size: 1.6rem;
+    animation: bounce 1s ease infinite;
+    color: transparent; 
+    background: linear-gradient(to right, var(--SlateBlue), var(--GoldenYellow));
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block; 
+    transition: background 0.5s ease; 
+  }
+  .form-text:hover {
+    background: linear-gradient(to right, var(--GoldenYellow), var(--OliveGreen));
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+.form-text {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .signup-form .signup-form-container {
+    width: 40vw;
+    height: 100%;
+    border: 2px solid var(--OliveGreen);
+    border-radius: 2rem;
+    box-shadow: 0px 2px 3px 0px #000;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem;
+  }
+  
+  .signup-form-container .form-fields-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 0.5rem;
+  } 
+  .form-fields-wrapper label {
+    font-size: 1.15rem;
+  } 
+  .form-fields-wrapper .input-fields {
+    height: 3.5rem;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0px 2px 2px 0px #000;
+    padding: 1rem 1.5rem;
+    outline: none;
+    font-size: 1.15rem;
+  }
+  
+  .password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .password-container input {
+    flex: 1;
+  }
+  .acct-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  
+  .acct-wrapper #acct-text {
+    font-size: 1.1rem;
+    color: var(--SlateBlue);
+  }
+  
+  .acct-wrapper .acct-wrapper-a {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: var(--OliveGreen);
+    letter-spacing: 2px; 
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .acct-wrapper .acct-wrapper-a:hover {
+    color: var(--GoldenYellow);
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 0px) and (max-width:768px){
+    .newsletter-mainwrapper{
+        flex-direction: column-reverse;
+        width: 95vw;
+        padding:0.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .newsletter-mainwrapper .img-container img{
+        width: 90%;
+        height: 90%;
+    }
+    .newsletter-mainwrapper .text-container{
+        flex-basis: 100%;
+        font-size: 1rem;
+    }
+    .newsletter-form{
+        width: 85vw;
+    }
+    .newsletter-button{
+        width: 6rem;
+        padding:1.18rem 0.4rem;
+    }
+    .signup-form .signup-form-container {
+        width: 96vw;
+        padding:3rem 1.2rem;
+    }
+    .form-text {
+        font-size: 1.4rem;
+    }
+}
+@media (min-width: 470px) and (max-width:768px){
+    .newsletter-button{
+        width: 26vw;
+        padding:1.18rem 0.4rem;
+    }
+    .signup-form .signup-form-container {
+        width: 70vw;
+        padding:3rem 1.6rem;
+    }
+    .form-text {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 690px) and (max-width:768px){
+    .newsletter-button{
+        width: 26vw;
+    }
+    .newsletter-form{
+        width: 80vw;
+    }
+    .signup-form .signup-form-container {
+        width: 55vw !important;
+        padding:3rem 1.6rem;
+    }
+}
+@media (min-width: 769px) and (max-width:992px){
+    .newsletter-mainwrapper{
+        width: 90vw;
+    }
+    .newsletter-mainwrapper .img-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .newsletter-button{
+        width: 15vw;
+        padding:1.18rem 0.8rem;
+    }
+    .newsletter-form{
+        width: 50vw;
+    }
+    .signup-form .signup-form-container {
+        width: 50vw;
+        padding:3rem 1.6rem;
+    }
+}

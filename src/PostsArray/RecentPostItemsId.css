@@ -1,0 +1,125 @@
+.RecenPostItemsId {
+    background-color: #f7fbff;
+    text-align: justify;
+    padding:8rem 2.5rem 3.5rem 2.5rem;
+    color: var(--SlateBlue);
+}
+.RecenPostItemsId #recent-post-item-img {
+    width: 100%;
+    max-width: 30rem;
+    height: 30rem;
+    object-fit: contain;
+    border: 1rem groove var(--GoldenYellow);
+    border-radius: 50%;
+    outline-offset: 5rem solid;
+    margin:0 auto 2rem auto;
+    display: block;
+}
+
+.RecenPostItemsId h1,
+.RecenPostItemsId h2,
+.RecenPostItemsId h3,
+.RecenPostItemsId h4 {
+    color: var(--GoldenYellow) !important;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-family: "Playfair Display", serif;
+}
+.RecenPostItemsId h1{
+    font-size: 2.5rem !important;
+}
+.RecenPostItemsId p {
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    font-family: "Lato", sans-serif;
+}
+.RecenPostItemsId ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    margin-bottom: 1.5rem;
+}
+
+.RecenPostItemsId ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+    text-transform: capitalize;
+}
+
+.RecenPostItemsId ol {
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+.RecenPostItemsId ol li {
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .RecenPostItemsId {
+        text-align: center;
+        /* padding:8rem 1.5rem 3.5rem 1.5rem; */
+    }
+
+    .RecenPostItemsId #recent-post-item-img {
+        max-width: 80%;
+    }
+    .RecenPostItemsId h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .RecenPostItemsId h2 {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .RecenPostItemsId h3 {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .RecenPostItemsId h4 {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    .RecenPostItemsId p,
+    .RecenPostItemsId ul li,
+    .RecenPostItemsId ol li {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .RecenPostItemsId {
+        padding:7rem 1.2rem 3.5rem 1.2rem;
+        text-align: center;
+    }
+    .RecenPostItemsId h1{
+        font-size: 1.5rem !important;
+    }
+    .RecenPostItemsId #recent-post-item-img {
+        width: 100%;
+        max-width: 20rem;
+        height: 20rem;
+    }
+    .RecenPostItemsId h2 {
+        font-size: 1.3rem;
+    }
+
+    .RecenPostItemsId h3 {
+        font-size: 1rem;
+    }
+
+    .RecenPostItemsId h4 {
+        font-size: 0.9rem;
+    }
+
+    .RecenPostItemsId p,
+    .RecenPostItemsId ul li,
+    .RecenPostItemsId ol li {
+        font-size: 0.9rem;
+    }
+}

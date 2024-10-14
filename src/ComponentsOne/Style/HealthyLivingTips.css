@@ -15,7 +15,7 @@
   .hlt-container h2 {
     color: var(--OliveGreen);
     margin: 0;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     font-family: "Playfair Display", serif;
     margin-top: 10px;
     font-size: 1.4rem;

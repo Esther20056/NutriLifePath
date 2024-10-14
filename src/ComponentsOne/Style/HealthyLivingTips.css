@@ -245,6 +245,7 @@ ul li strong {
 @media (max-width: 480px) {
   .hlt-container h1 {
     font-size: 1.6rem;
+    text-align: center;
   }
 
   .hlt-container h2 {

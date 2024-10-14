@@ -64,6 +64,16 @@ ul li strong {
   margin: 0;
   color: #f7fbff !important;
 }
+.blog-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.read-more-link{
+  color: var(--GoldenYellow);
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
+}
 @media (max-width: 1200px) {
   .hlt-container {
     padding: 7.5rem 10px 10px 10px !important;

@@ -245,12 +245,12 @@ ul li strong {
 @media (max-width: 480px) {
   .hlt-container h1 {
     font-size: 1.6rem;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .hlt-container h2 {
     font-size: 1.4rem;
-    word-spacing: -0rem !important;
+    word-spacing: -0.45rem !important;
   }
 
   .hlt-container p,
@@ -283,7 +283,7 @@ ul li strong {
 
   ul li {
     font-size: 12px;
-    margin-bottom: 6px; /* Reduce space between list items */
+    margin-bottom: 6px; 
   }
 
   .hlt-footer {

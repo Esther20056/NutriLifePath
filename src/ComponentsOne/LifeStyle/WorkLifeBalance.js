@@ -4,7 +4,7 @@ import '../Style/HealthyLivingTips.css';
 function WorkLifeBalance() {
   return (
     <div className="hlt-container">
-      <h1 style={{wordSpacing: "0px !important"}}>Work-Life Balance: Thriving Amidst Long Work Hours</h1>
+      <h1>Work-Life Balance: Thriving Amidst Long Work Hours</h1>
       <p>In Nigeria, many individuals find themselves working 15 hours or more each day. This can lead to burnout, physical exhaustion, and a sense of imbalance in life. However, maintaining a work-life balance is essential for overall well-being and productivity. Here are practical strategies tailored for those who work long hours to help them achieve a healthier, more balanced life.</p>
 
       <section>

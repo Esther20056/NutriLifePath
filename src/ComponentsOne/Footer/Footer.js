@@ -9,7 +9,7 @@ function Footer() {
       <div className="content">
         {/* About Section */}
         <div className="footer-contents-wrapper" style={{flexBasis: "35%"}}>
-        <p className="header-text nutrilife-text" style={{paddingLeft: "2rem"}}>NutriLife Path</p>
+        <p className="header-text nutrilife-text">NutriLife Path</p>
           <ul>
             <li>Nigeria's #1 destination for healthy living, offering nutritious recipes, wellness tips, meal plans, and practical lifestyle guidance to help you achieve vibrant health, balance, and well-being every day.</li>
           </ul>
@@ -17,7 +17,7 @@ function Footer() {
 
         {/* Quick Links Section 1 */}
         <div className="footer-contents-wrapper">
-          <p className='header-text' style={{paddingLeft: "2rem"}}>Quick Links</p>
+          <p className='header-text'>Quick Links</p>
           <ul className='quick-links'>
             <li>&gt; <Link to="/" style={{ marginLeft: "0.5rem" }}>Home</Link></li>
             <li>&gt; <Link to="/aboutuspage" style={{ marginLeft: "0.5rem" }}>About</Link></li>

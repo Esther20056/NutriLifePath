@@ -90,6 +90,9 @@
     .RecenPostItemsId ol li {
         font-size: 0.95rem;
     }
+    .RecenPostItemsId p{
+        line-height: 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -121,5 +124,8 @@
     .RecenPostItemsId ul li,
     .RecenPostItemsId ol li {
         font-size: 0.9rem;
+    }
+    .RecenPostItemsId p{
+        line-height: 0;
     }
 }

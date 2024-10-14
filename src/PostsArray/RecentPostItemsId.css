@@ -56,7 +56,6 @@
     font-size: 1.15rem;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
     .RecenPostItemsId {
         text-align: center;
@@ -90,15 +89,15 @@
     .RecenPostItemsId ol li {
         font-size: 0.95rem;
     }
-     .recentpostitemid-h2{
-        word-spacing: 2%;
+    .RecenPostItemsId ul, .RecenPostItemsId ol {
+        padding-left: 8px;
     }
 }
 
 @media (max-width: 480px) {
     .RecenPostItemsId {
         padding:7rem 1.2rem 3.5rem 1.2rem;
-        text-align: justify;
+        text-align: center;
     }
     .RecenPostItemsId h1{
         font-size: 1.5rem !important;
@@ -125,7 +124,7 @@
     .RecenPostItemsId ol li {
         font-size: 0.9rem;
     }
-    .recentpostitemid-h2{
-        word-spacing: 2%;
+    .RecenPostItemsId ul, .RecenPostItemsId ol {
+        padding-left: 8px;
     }
 }

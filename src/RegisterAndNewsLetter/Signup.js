@@ -62,11 +62,11 @@ function Signup() {
             )}
           </div>
         </div>
+        <button className="register-btn">Sign Up</button>
         <div className="acct-wrapper">
   <p id="acct-text">Already have an account?</p>
   <Link to="/login" className="acct-wrapper-a">LogIn</Link>
 </div>
-
       </form>
     </div>
   );

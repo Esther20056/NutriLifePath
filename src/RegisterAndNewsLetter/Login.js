@@ -58,6 +58,7 @@ function Login() {
             )}
           </div>
         </div>
+        <button className="register-btn">Sign In</button>
         <div className="acct-wrapper">
   <p id="acct-text">Don't have an account?</p>
   <Link to="/signup" className="acct-wrapper-a">SignUp</Link>

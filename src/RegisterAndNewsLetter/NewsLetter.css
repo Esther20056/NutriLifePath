@@ -129,7 +129,7 @@
   .form-fields-wrapper label {
     font-size: 1.15rem;
   } 
-  .form-fields-wrapper .input-fields {
+  .form-fields-wrapper .input-fields, .register-btn{
     height: 3.5rem;
     width: 100%;
     border: none;
@@ -139,7 +139,12 @@
     outline: none;
     font-size: 1.15rem;
   }
-  
+ .register-btn{
+    background-color: var(--GoldenYellow) !important;
+    color: #f7fbff!important;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+ } 
   .password-container {
     position: relative;
     display: flex;
@@ -197,9 +202,11 @@
         width: 6rem;
         padding:1.18rem 0.4rem;
     }
+    .signup-form{
+        padding:3rem 1.2rem;                                                                                                               
+    }
     .signup-form .signup-form-container {
-        width: 96vw;
-        padding:3rem 1.2rem;
+        width: 95vw;
     }
     .form-text {
         font-size: 1.4rem;

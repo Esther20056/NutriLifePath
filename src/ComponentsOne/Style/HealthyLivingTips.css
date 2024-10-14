@@ -15,7 +15,7 @@
   .hlt-container h2 {
     color: var(--OliveGreen);
     margin: 0;
-    /* padding: 20px 0; */
+    padding: 20px 0;
     font-family: "Playfair Display", serif;
     margin-top: 10px;
     font-size: 1.4rem;
@@ -85,11 +85,11 @@
   
   @media (max-width: 768px) {
    .hlt-container h1 {
-      font-size: 2rem;
+      font-size: 1.8rem !important;
     }
   
     .hlt-container h2 {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
   
     section {

@@ -21,7 +21,6 @@ import Footer from './ComponentsOne/Footer/Footer';
 import Signup from './RegisterAndNewsLetter/Signup';
 import RecenPostItemsId from './PostsArray/RecenPostItemsId';
 import Login from './RegisterAndNewsLetter/Login';
-import RecipesArrayMapper from './ComponentsOne/RecipesArrayMapper';
 
 function App() {
   return (
@@ -48,7 +47,6 @@ function App() {
           <Route path='/signup' element={<Signup/>} />
           <Route path='/login' element={<Login/>} />
           <Route path='/recentpostitems/:id' element={<RecenPostItemsId/>}/>
-          <Route path='/healthyrecipes/:id' element={<RecipesArrayMapper/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

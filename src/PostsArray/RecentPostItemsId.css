@@ -60,7 +60,7 @@
 @media (max-width: 768px) {
     .RecenPostItemsId {
         text-align: center;
-        /* padding:8rem 1.5rem 3.5rem 1.5rem; */
+        padding:8rem 1.5rem 3.5rem 1.5rem;
     }
 
     .RecenPostItemsId #recent-post-item-img {
@@ -90,7 +90,7 @@
     .RecenPostItemsId ol li {
         font-size: 0.95rem;
     }
-    .recentpostitemid-h2{
+     .recentpostitemid-h2{
         word-spacing: 2%;
     }
 }

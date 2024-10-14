@@ -82,7 +82,7 @@ h4{
 margin:1rem 0rem 1rem 9rem;
 }
 .item-details h4{
-  color:var( --CharcoalGrey);
+  color:var( --CharcoalGrey) !important;
   margin-bottom: 0.8rem;
 }
 .item-details .post-p{

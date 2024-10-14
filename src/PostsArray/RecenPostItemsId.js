@@ -64,7 +64,7 @@ function RecenPostItemsId() {
 
       {/* Health Benefits */}
       <div>
-        <h2>Health Benefits</h2>
+        <h2 className='recentpostitemid-h2'>Health Benefits</h2>
         {renderContent(product.healthBenefits)}
       </div>
 

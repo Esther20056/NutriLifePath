@@ -147,6 +147,7 @@
   font-family: "Playfair Display", serif;
   margin-bottom: 1.2rem;
   font-size: 2.5rem;
+  word-spacing: normal;
 }
 
 .hlt-container h2 {
@@ -264,7 +265,6 @@ ul li strong {
   }
 }
 
-/* Additional fixes for padding and margin adjustments for <700px */
 @media (max-width: 700px) {
   .hlt-container {
     padding: 5rem 1rem;
@@ -272,7 +272,7 @@ ul li strong {
 
   section {
     padding: 10px;
-    margin-bottom: 1rem; /* Reduces weird spacing */
+    margin-bottom: 1rem;
   }
 
   .hlt-container h2 {

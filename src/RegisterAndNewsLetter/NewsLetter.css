@@ -203,10 +203,11 @@
         padding:1.18rem 0.4rem;
     }
     .signup-form{
-        padding:3rem 1.2rem;                                                                                                               
+        padding:8rem 1.2rem;                                                                                                               
     }
     .signup-form .signup-form-container {
         width: 95vw;
+        padding:3rem 1.2rem;  
     }
     .form-text {
         font-size: 1.4rem;

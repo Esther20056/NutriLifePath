@@ -94,7 +94,7 @@ a{
   .cancel-button .times {
     font-size: 2.2rem;
     color: var(--GoldenYellow);
-    margin-bottom: 0.3rem;
+    /* margin-bottom: 0.3rem; */
   }
   .hamburger.hidden {
     display: none !important; 

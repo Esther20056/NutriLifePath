@@ -106,7 +106,7 @@
   }
   @media (max-width: 590px) {
     .hlt-container{
-        text-align: center;
+        text-align: justify;
     }
   }
   @media (max-width: 480px) {

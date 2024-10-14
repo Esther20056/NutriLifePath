@@ -71,7 +71,6 @@ ul li strong {
 
   .hlt-container h1 {
     font-size: 2.5rem;
-    word-spacing: -0.3rem;
   }
 }
 
@@ -104,9 +103,11 @@ ul li strong {
 }
 
 @media (max-width: 480px) {
+  .hlt-container{
+    text-align: center;
+  }
   .hlt-container h1 {
     font-size: 1.6rem;
-    text-align: center;
   }
 
   .hlt-container h2 {

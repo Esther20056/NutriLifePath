@@ -126,6 +126,6 @@
         font-size: 0.9rem;
     }
     .RecenPostItemsId p{
-        line-height: 0;
+        word-spacing: 0;
     }
 }

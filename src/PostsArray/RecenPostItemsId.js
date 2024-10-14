@@ -46,7 +46,7 @@ function RecenPostItemsId() {
 
       {/* Ingredients Section */}
       <div>
-        <h2>Ingredients</h2>
+        <h2 className='recentpostitemid-h2'>Ingredients</h2>
         {renderContent(product.ingredients)}
       </div>
 

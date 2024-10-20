@@ -1,51 +1,53 @@
 const blogPosts = [
     {
-      title: "10 Easy and Affordable Nigerian Recipes for a Healthier You",
-      content:
-        "Discover easy, delicious, and nutritious Nigerian recipes that are perfect for anyone looking to eat healthy without breaking the bank. From jollof rice to boiled plantains and vegetable soups, these meals are both budget-friendly and packed with essential nutrients.",
-      link: "",
+      "title": "How to Boost Your Immune System Naturally with Local Ingredients",
+      "content": "Learn about natural ways to boost your immunity using easily accessible Nigerian ingredients. From garlic and ginger to honey and turmeric, these simple remedies can help protect you from common illnesses.",
+      "link": ""
     },
     {
-      title: "5 Simple Workouts You Can Do at Home",
-      content:
-        "Staying fit doesn't require a gym membership. Learn how to do simple but effective workouts at home with just your body weight. These exercises are perfect for anyone with a busy schedule or on a budget.",
-      link: "",
+      "title": "Nigerian Street Food: Tasty and Healthy Options You Can Try",
+      "content": "Discover how to enjoy Nigerian street food without compromising on health. From roasted plantains (boli) to suya, we explore the healthiest options and how to make them at home.",
+      "link": ""
     },
     {
-      title: "Boost Your Mental Health: 5 Quick Stress-Relief Techniques",
-      content:
-        "Mental health is just as important as physical health. In this article, we explore five quick and effective techniques to help reduce stress, anxiety, and mental fatigue. Start incorporating these practices into your routine for a clearer, calmer mind.",
-      link: "",
+      "title": "How to Practice Digital Detox and Reclaim Your Mental Health",
+      "content": "In a world of constant notifications, it's important to take breaks from screens. Learn simple strategies for a digital detox that can help improve your mental clarity and reduce stress.",
+      "link": ""
     },
     {
-      title: "How to Build Healthy Habits That Stick",
-      content:
-        "Building long-term healthy habits doesn’t have to be overwhelming. Learn how to create sustainable habits that will improve your overall well-being, regardless of your lifestyle or financial situation.",
-      link: "",
+      "title": "A Beginner’s Guide to Yoga: Benefits for Nigerian Professionals",
+      "content": "Yoga is not just about flexibility – it’s also a great way to reduce stress and improve overall health. This post introduces Nigerian professionals to beginner-friendly yoga poses and their benefits.",
+      "link": ""
     },
     {
-      title: "The Importance of Water: Hydrate for Better Health",
-      content:
-        "Water is vital for every function in your body. Learn about the numerous health benefits of staying hydrated and why it's important to drink enough water every day. Tips on how to incorporate more water into your daily routine.",
-      link: "",
+      "title": "The Role of Fiber in Your Diet: Nigerian Foods That Are High in Fiber",
+      "content": "Fiber is essential for digestive health and overall well-being. Discover Nigerian foods rich in fiber, such as beans, okra, and corn, and learn how to incorporate them into your daily meals.",
+      "link": ""
     },
     {
-      title: "How to Use Local Ingredients for Glowing Skin",
-      content:
-        "Explore natural skincare remedies using locally sourced ingredients like shea butter, aloe vera, and coconut oil. These remedies are not only affordable but highly effective in giving you radiant and healthy skin.",
-      link: "",
+      "title": "How to Boost Your Energy Levels Naturally Without Caffeine",
+      "content": "Feeling tired? There are natural ways to boost your energy levels without relying on caffeine. Learn about nutrient-rich Nigerian foods and simple habits that can help you stay energized throughout the day.",
+      "link": ""
     },
     {
-      title: "Self-Care for the Busy Nigerian Professional",
-      content:
-        "Juggling work, family, and personal time can be overwhelming. In this article, we share self-care tips for professionals working long hours in Nigeria, offering practical advice on how to prioritize your mental and physical health.",
-      link: "",
+      "title": "Exploring the Healing Powers of Nigerian Traditional Teas",
+      "content": "From zobo to honeybush tea, Nigerian traditional teas are packed with antioxidants and health benefits. Find out how these teas can support your overall health and well-being.",
+      "link": ""
     },
     {
-      title: "Superfoods You Should Include in Your Diet Today",
-      content:
-        "Learn about Nigerian superfoods that are packed with essential vitamins, minerals, and antioxidants. Including foods like tiger nuts, moringa, and groundnuts in your diet can boost your energy and improve overall health.",
-      link: "",
+      "title": "How to Set Realistic Health Goals and Stick to Them",
+      "content": "Setting realistic and achievable health goals is key to long-term success. Learn how to create practical goals that align with your lifestyle and how to stay motivated to reach them.",
+      "link": ""
     },
+    {
+      "title": "How to Make the Most of Seasonal Nigerian Fruits for Better Health",
+      "content": "Seasonal fruits are packed with nutrients and are perfect for improving your health. Explore the health benefits of local fruits like mangoes, oranges, and pawpaw, and how to incorporate them into your diet.",
+      "link": ""
+    },
+    {
+      "title": "Balancing Work and Wellness: Simple Tips for Busy Nigerians",
+      "content": "Maintaining wellness while juggling work and family can be challenging. This post offers practical tips on how to make time for your mental and physical health in a busy Nigerian lifestyle.",
+      "link": ""
+    }
   ];
   export default blogPosts

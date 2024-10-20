@@ -11,7 +11,7 @@ function RecentPostItems(props) {
         <div className="item-details">
       <h4>{props.title}</h4>
       <p  className='post-p'>{props.description}</p>
-      <button className='details-button'><Link to={`/recentpostitems/${props.id}`}>Read More</Link></button>
+      <button className='details-button'><Link to={`/recentpost/${props.id}`}>Read More</Link></button>
         </div>
   </div>
   )

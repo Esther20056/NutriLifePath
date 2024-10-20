@@ -21,7 +21,9 @@ import Footer from './ComponentsOne/Footer/Footer';
 import Signup from './RegisterAndNewsLetter/Signup';
 import RecenPostItemsId from './PostsArray/RecenPostItemsId';
 import Login from './RegisterAndNewsLetter/Login';
-
+import ContactPage from './ComponentsOne/Footer/ContactPage';
+import RecentPostId from './PostsArray/RecentPostId';
+import PostDetails from './PostsArray/PostDetails';
 function App() {
   return (
     <div className="App">
@@ -46,7 +48,13 @@ function App() {
           <Route path='*' element={<NotFound/>} />
           <Route path='/signup' element={<Signup/>} />
           <Route path='/login' element={<Login/>} />
+          <Route path='/contactUs' element={<ContactPage/>} />
           <Route path='/recentpostitems/:id' element={<RecenPostItemsId/>}/>
+          <Route path='/recentpost/:id' element={<RecentPostId/>}/>
+          <Route
+          path="/recentpost/:id/:type/:itemName"
+          element={<PostDetails />}
+        />
         </Routes>
         <Footer/>
       </BrowserRouter>

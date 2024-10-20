@@ -115,11 +115,9 @@ const Products = [
           },
           "Pepper Mixture": {
             "ingredients": [
-              { "name": "Cayenne Pepper", "benefit": "Boosts metabolism and has anti-inflammatory properties." },
-              { "name": "Onion", "benefit": "Good source of antioxidants, supports the immune system." },
-              { "name": "Habanero Pepper", "benefit": "Rich in vitamins A and C, boosts metabolism, and has antioxidant properties." },
-              { "name": "Garlic", "benefit": "Contains compounds that help fight infections and boost immune health." },
-              { "name": "Ginger", "benefit": "Has anti-inflammatory properties and aids digestion." }
+              { "name": "Cayenne Pepper", "quantity": "10 pieces of cayenne pepper.", "benefit": "Boosts metabolism and has anti-inflammatory properties." },
+              { "name": "Onion","quantity": "2 large onions", "benefit": "Good source of antioxidants, supports the immune system." },
+              { "name": "Habanero Pepper", "quantity": "15 habanero peppers", "benefit": "Rich in vitamins A and C, boosts metabolism, and has antioxidant properties." },
             ]
           },
           "Meats and Fish": {
@@ -132,8 +130,8 @@ const Products = [
           },
           "Vegetables and Spices": [
             { "name": "Palm oil", "benefit": "Contains healthy fats, rich in vitamin E." },
-            { "name": "Crayfish", "benefit": "Provides added protein and flavor, rich in omega-3 fatty acids." },
-            { "name": "Stock Cubes (Maggi)", "benefit": "Enhances the flavor of the dish." }
+            { "name": "Crayfish", "quantity": "3tbs", "benefit": "Provides added protein and flavor, rich in omega-3 fatty acids." },
+            { "name": "Stock Cubes (Maggi)", "quantity": "16grams", "benefit": "Enhances the flavor of the dish." }
           ]
         },
         "cookingInstructions": [
@@ -141,7 +139,7 @@ const Products = [
           "2. Cook the beans in water, add chopped onions and let it cook for about 1hour 30minutes minutes or until soft. Do not add too much water",
           "3. If using, mash the ripe plantain and stir it into the beans. Cook for 5 minutes. Under medium heat",
           "4.Add spices (salt, stock cubes (maggi), crayfish) and let it cook for 2minutes under low heat",
-          "5. Add the blended habanero peppers, garlic, ginger, and cayenne pepper (optional). Stir well and cook for 5-8 minutes. Under low heat and make sure there is little amount of water in the beans or the quantity of water you want",
+          "5. Add the blended habanero peppers, and cayenne pepper (optional). Stir well and cook for 5-8 minutes. Under low heat and make sure there is little amount of water in the beans or the quantity of water you want",
           "6. Add the quantity of palm oil you want and let it cook for 8-10 minutes under very low heat",       
           "9. Fry the ripe plantain slices in hot oil until golden brown and crispy.",
           "10. Serve the beans porridge with the fried plantain and your choice of protein (e.g., fried fish)."

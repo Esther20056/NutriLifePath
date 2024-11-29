@@ -12,6 +12,9 @@
     color: var(--SlateBlue);
     font-family: "Playfair Display", serif;
 }
+.recent-post-items-h5{
+    font-size: 1.2rem;
+}
 .recent-post-items-h4{
     margin:2.5rem 0 1.5rem 0;
     font-size: 1.8rem;
@@ -36,6 +39,9 @@ font-family: "Lato", sans-serif;
 .readmorelink{
         font-size: 1rem;
     }
+.list-text{
+    font-family: "Lato", sans-serif;
+}
 @media (min-width:0px) and (max-width:400px) {
     .recent-post-items-image{
         width: 18rem;

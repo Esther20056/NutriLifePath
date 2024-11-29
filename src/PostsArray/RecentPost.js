@@ -26,6 +26,12 @@ import PuffPuff from "../SuperFoosImages/PuffPuff.jpeg"
 import PlantainChips from "../SuperFoosImages/PlantainChips.jpeg"
 import PotatoPorridge from "../SuperFoosImages/PotatoPorridge.jpeg"
 import ChinChin from "../SuperFoosImages/ChinChin.jpeg"
+import KuliKuli from "../SuperFoosImages/KuliKuli.jpeg"
+import Kokoro from "../SuperFoosImages/Kokoro.jpeg"
+// Hydration and Local Beverages Images
+import ZoboDrink from '../SuperFoosImages/ZoboDrink.jpeg'
+// import water from "../SuperFoosImages/water.jpeg"
+import Kunu from '../SuperFoosImages/Kunu.jpeg'
 const RecentPosts =[
     {
         "id": 1,
@@ -382,9 +388,64 @@ const RecentPosts =[
               "Flaxseeds add omega-3 fatty acids, which support heart health and reduce inflammation.",
               "Low in unhealthy fats and a great source of vitamins and antioxidants."
             ]
+          },
+          {
+            "name": "Kuli Kuli",
+            "SubImage": KuliKuli,
+            "ingredients": [
+              "2 cups groundnut (peanut) flour",
+              "1/2 teaspoon ground ginger",
+              "1/2 teaspoon ground pepper",
+              "1/4 teaspoon garlic powder",
+              "Salt to taste",
+              "1 tablespoon palm oil",
+              "Water (as needed)"
+            ],
+            "description": "A crunchy and protein-rich snack made from groundnuts. Kuli Kuli is a popular Nigerian snack that’s high in fiber and healthy fats, perfect for a satisfying snack on the go.",
+            "how_to_make": [
+              "1. Roast the groundnuts until golden brown, then grind them into a fine powder.",
+              "2. In a bowl, combine the groundnut flour, ground ginger, ground pepper, garlic powder, and salt.",
+              "3. Add the palm oil and mix well to form a dough.",
+              "4. Gradually add water to make the dough pliable, then shape into small balls or flat discs.",
+              "5. Heat oil in a pan and fry the kuli kuli until golden brown and crispy.",
+              "6. Let them cool before serving."
+            ],
+            "affordable_ingredients": "Groundnuts are widely available and affordable in Nigerian markets, and palm oil is a traditional and inexpensive oil.",
+            "health_benefits": [
+              "Rich in protein and healthy fats.",
+              "High in fiber, which helps with digestion.",
+              "Low in carbohydrates and great for a protein-packed snack."
+            ]
+          },
+          {
+            "name": "Kokoro",
+            "SubImage": Kokoro,
+            "ingredients": [
+              "2 cups corn flour",
+              "1/4 cup palm oil",
+              "1 teaspoon ground pepper",
+              "1/2 teaspoon ginger",
+              "1/2 teaspoon garlic powder",
+              "Salt to taste",
+              "Water (as needed)"
+            ],
+            "description": "A crispy and savory snack made from corn flour, lightly spiced for extra flavor. Kokoro is a great snack for those looking for something crunchy and flavorful.",
+            "how_to_make": [
+              "1. In a bowl, combine the corn flour, ground pepper, ginger, garlic powder, and salt.",
+              "2. Add palm oil and water to form a dough.",
+              "3. Shape the dough into long thin strips or any shape you prefer.",
+              "4. Fry in hot oil until crispy and golden brown.",
+              "5. Let them cool before serving."
+            ],
+            "affordable_ingredients": "Corn flour is a staple ingredient and is very affordable. Palm oil is commonly used in Nigerian cooking.",
+            "health_benefits": [
+              "High in fiber and low in unhealthy fats.",
+              "Provides sustained energy due to the carbohydrates from corn flour.",
+              "A good source of essential minerals like magnesium and iron."
+            ]
           }
         ]
-      },        
+      },            
     {
         "id": 4,
         "title": "DIY Natural Skincare Remedies",
@@ -654,6 +715,7 @@ const RecentPosts =[
     },    
     {
         "id": 6,
+        "type": "Hydration",
         "title": "Importance of Hydration and Local Beverages",
         "description": "Staying hydrated is crucial for overall health, especially in Nigeria's warm climate. Proper hydration aids digestion, regulates body temperature, and supports skin health. While water is essential, incorporating traditional beverages can enhance your hydration routine while offering additional health benefits. Here, we explore the significance of hydration and recommend local drinks like zobo, kunu, fura da nono, and more.",
         "image": BW,
@@ -661,6 +723,7 @@ const RecentPosts =[
             {
                 "name": "Zobo (Hibiscus Tea)",
                 "description": "Zobo is made from dried hibiscus petals and is a popular traditional drink in Nigeria. It's not only hydrating but also packed with antioxidants, Vitamin C, and other beneficial compounds.",
+                "SubImage": ZoboDrink,
                 "ingredients": [
                     "1 cup dried hibiscus petals",
                     "5 cups water",
@@ -679,6 +742,7 @@ const RecentPosts =[
             {
                 "name": "Kunu (Fermented Millet Drink)",
                 "description": "Kunu is a mildly fermented beverage made from millet or sorghum and is a staple in Nigerian households. It’s rich in nutrients and offers hydration along with a mild energy boost due to its carbohydrate content.",
+                "SubImage": Kunu,
                 "ingredients": [
                     "1 cup millet or sorghum",
                     "4 cups water",
@@ -737,7 +801,7 @@ const RecentPosts =[
                 "affordable_ingredients": "Palm wine is naturally available from local tapper vendors, though it is more commonly consumed for ceremonial or social purposes."
             }
         ],
-        "hydration_tips": {
+        "hydration_tip": {
             "importance_of_hydration": "Hydration is essential for maintaining body temperature, supporting digestion, and promoting healthy skin. In Nigeria’s hot climate, staying hydrated is especially important, as the body loses water through sweat and increased physical activity.",
             "daily_hydration_goal": "It’s recommended to drink at least 8-10 glasses of water daily, but local beverages like Zobo, Kunu, and Fura da Nono can help you stay hydrated and reap additional health benefits. Make sure to drink a variety of fluids to maintain balance.",
             "hydration_idea": "Try alternating between water and hydrating local beverages to make your hydration routine more enjoyable and nutritious. These traditional drinks not only refresh you but also offer antioxidants, probiotics, and essential vitamins."

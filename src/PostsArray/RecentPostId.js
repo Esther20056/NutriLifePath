@@ -39,6 +39,24 @@ if (!recentPost) {
         </>
       )}
 
+ {/* Smothie */}
+ {recentPost.type === 'Smoothie' && (
+         <>
+         {recentPost.smoothie_recipes.map((smoothie, index) => (
+           <div key={index} className='recent-post-items'>
+             <h4 className='recent-post-items-h4'>{smoothie.name}</h4>
+               <img
+                 src={smoothie.SubImage}
+                 alt={smoothie.name}
+                 className='recent-post-items-image'
+               />
+             <p className='recent-post-items-p'>{smoothie.description}</p>
+             <button className='details-button'><Link className='readmorelink' to={`/recentpost/${id}/smoothie/${smoothie.name}`}>Read More</Link>
+             </button>
+           </div>
+         ))}
+       </>
+      )}
       {/* Snacks */}
       {recentPost.type === 'Snacks' && (
          <>
@@ -51,7 +69,7 @@ if (!recentPost) {
                  className='recent-post-items-image'
                />
              <p className='recent-post-items-p'>{snack.description}</p>
-             <button className='details-button'><Link className='readmorelink' to={`/recentpost/${id}/superfood/${snack.name}`}>Read More</Link>
+             <button className='details-button'><Link className='readmorelink' to={`/recentpost/${id}/snack/${snack.name}`}>Read More</Link>
              </button>
            </div>
          ))}
@@ -60,19 +78,39 @@ if (!recentPost) {
 
       {/* DIY Natural Skincare Remedies (DNSR) */}
       {recentPost.type === 'DNSR' && (
-        <>
-          <h3>DIY Natural Skincare Remedies</h3>
-          {recentPost.skincare_recipes.map((dnsr, index) => (
-            <div key={index}>
-              <h4>{dnsr.name}</h4>
-              <img
-                src={dnsr.SubImage}
-                alt={dnsr.name}
-              />
-              <p>{dnsr.description}</p>
-            </div>
-          ))}
-        </>
+         <>
+         {recentPost.skincare_recipes.map((skincare, index) => (
+           <div key={index} className='recent-post-items'>
+             <h4 className='recent-post-items-h4'>{skincare.name}</h4>
+               {/* <img
+                 src={snack.SubImage}
+                 alt={snack.name}
+                 className='recent-post-items-image'
+               /> */}
+             <p className='recent-post-items-p'>{skincare.description}</p>
+             <button className='details-button'><Link className='readmorelink' to={`/recentpost/${id}/dnsr/${skincare.name}`}>Read More</Link>
+             </button>
+           </div>
+         ))}
+       </>
+      )}
+
+      {recentPost.type === 'Hydration' && (
+         <>
+         {recentPost.hydration_tips.map((hydration, index) => (
+           <div key={index} className='recent-post-items'>
+             <h4 className='recent-post-items-h4'>{hydration.name}</h4>
+               <img
+                 src={hydration.SubImage}
+                 alt={hydration.name}
+                 className='recent-post-items-image'
+               />
+             <p className='recent-post-items-p'>{hydration.description}</p>
+             <button className='details-button'><Link className='readmorelink' to={`/recentpost/${id}/hydrate/${hydration.name}`}>Read More</Link>
+             </button>
+           </div>
+         ))}
+       </>
       )}
     </div>
   );

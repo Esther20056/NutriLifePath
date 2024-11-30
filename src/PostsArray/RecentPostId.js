@@ -82,11 +82,11 @@ if (!recentPost) {
          {recentPost.skincare_recipes.map((skincare, index) => (
            <div key={index} className='recent-post-items'>
              <h4 className='recent-post-items-h4'>{skincare.name}</h4>
-               {/* <img
-                 src={snack.SubImage}
-                 alt={snack.name}
+               <img
+                 src={skincare.SubImage}
+                 alt={skincare.name}
                  className='recent-post-items-image'
-               /> */}
+               />
              <p className='recent-post-items-p'>{skincare.description}</p>
              <button className='details-button'><Link className='readmorelink' to={`/recentpost/${id}/dnsr/${skincare.name}`}>Read More</Link>
              </button>

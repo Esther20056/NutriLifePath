@@ -105,11 +105,11 @@ function PostDetails() {
             ))}
           </ul>
           <h5 className='recent-post-items-h5'>How to Make</h5>
-          {/* <ul>
+          <ul>
             {item.how_to_make.map((benefit, idx) => (
-              <li className='list-text' key={idx}>{benefit}</li>
+              <li className='list-text' key={idx}><p>{benefit}</p></li>
             ))}
-          </ul> */}
+          </ul>
           <h5 className='recent-post-items-h5'>Affordable Ingredients</h5>
           <p className='list-text'><p>{item.affordable_ingredients}</p></p>
           <h5 className='recent-post-items-h5'>Skin Benefits</h5>

@@ -30,8 +30,19 @@ import KuliKuli from "../SuperFoosImages/KuliKuli.jpeg"
 import Kokoro from "../SuperFoosImages/Kokoro.jpeg"
 // Hydration and Local Beverages Images
 import ZoboDrink from '../SuperFoosImages/ZoboDrink.jpeg'
-// import water from "../SuperFoosImages/water.jpeg"
+import Fura from '../SuperFoosImages/Fura.jpeg'
+import CoconutWater from '../SuperFoosImages/CoconutWater.jpeg'
+import PalmWine from '../SuperFoosImages/PalmWine.jpeg'
 import Kunu from '../SuperFoosImages/Kunu.jpeg'
+// SkinCare Images
+import AloeAndGreenTea from '../SuperFoosImages/AloeAndGreenTea.jpeg'
+import AvocadoMask from '../SuperFoosImages/AvocadoMask.jpeg'
+import CoconutAlmond from '../SuperFoosImages/CoconutAlmond.jpeg'
+import JojobaRosehipOil from '../SuperFoosImages/JojobaRosehipOil.jpeg'
+import Marula from '../SuperFoosImages/Marula.jpeg'
+import RiceToner from '../SuperFoosImages/RiceToner.jpeg'
+import OatAndManuka from '../SuperFoosImages/OatAndManuka.jpeg'
+import TumericYoghurt from '../SuperFoosImages/TumericYoghurt.jpeg'
 const RecentPosts =[
     {
         "id": 1,
@@ -446,12 +457,12 @@ const RecentPosts =[
           }
         ]
       },            
-    {
+      {
         "id": 4,
         "title": "DIY Natural Skincare Remedies",
-        "type":"DNSR",
+        "type": "DNSR",
         "description": "In Nigeria, the richness of our natural resources extends to skincare. But the world offers a treasure trove of natural skincare ingredients, from African marula oil to Japanese green tea, each with incredible benefits for the skin. These remedies are chemical-free, sustainable, and effective. Let’s explore their advantages and how to create simple DIY skincare recipes at home using unique global ingredients.",
-        "image": NDBC,
+        "image": "NDBC",
         "skincare_recipes": [
             {
                 "name": "Marula Oil Moisturizing Face Serum",
@@ -462,7 +473,13 @@ const RecentPosts =[
                     "1 drop frankincense essential oil"
                 ],
                 "description": "Marula oil is packed with antioxidants and fatty acids, making it ideal for hydrating and restoring dry skin. This serum helps combat signs of aging, improve elasticity, and give your skin a radiant glow.",
-                "how_to_make": "1. In a small glass dropper bottle, combine the marula oil and rose water. 2. Add the lavender and frankincense essential oils. 3. Shake the bottle gently to mix the ingredients. 4. Apply a few drops of the serum onto your face after cleansing, focusing on dry areas. Use daily for best results.",
+                "SubImage": Marula,
+                "how_to_make": [
+                    "In a small glass dropper bottle, combine the marula oil and rose water.",
+                    "Add the lavender and frankincense essential oils.",
+                    "Shake the bottle gently to mix the ingredients.",
+                    "Apply a few drops of the serum onto your face after cleansing, focusing on dry areas. Use daily for best results."
+                ],
                 "affordable_ingredients": "Marula oil is often available at specialty health stores or online. Rose water and essential oils like lavender and frankincense can be found in natural wellness shops or online. A small bottle of marula oil goes a long way as a little goes a long way.",
                 "skin_benefits": [
                     "Rich in antioxidants and fatty acids, which help hydrate and rejuvenate the skin.",
@@ -479,7 +496,13 @@ const RecentPosts =[
                     "1/2 teaspoon lemon juice (optional)"
                 ],
                 "description": "Green tea is packed with antioxidants, while aloe vera soothes and hydrates the skin. This mask works wonders for reducing inflammation, fighting acne, and giving the skin a refreshing glow.",
-                "how_to_make": "1. In a small bowl, mix the matcha green tea powder with the aloe vera gel and honey until a smooth paste forms. 2. Add lemon juice for extra brightness (optional). 3. Apply the mask evenly to your face and leave it on for 15-20 minutes. 4. Rinse off with lukewarm water and pat your face dry.",
+                "SubImage": AloeAndGreenTea,
+                "how_to_make": [
+                    "In a small bowl, mix the matcha green tea powder with the aloe vera gel and honey until a smooth paste forms.",
+                    "Add lemon juice for extra brightness (optional).",
+                    "Apply the mask evenly to your face and leave it on for 15-20 minutes.",
+                    "Rinse off with lukewarm water and pat your face dry."
+                ],
                 "affordable_ingredients": "Matcha powder is widely available at health stores and online. Aloe vera gel can be sourced fresh from aloe plants or purchased at most supermarkets. Honey and lemon juice are kitchen staples that are easy to find.",
                 "skin_benefits": [
                     "Antioxidants in green tea protect skin cells from damage and help reduce inflammation.",
@@ -496,7 +519,13 @@ const RecentPosts =[
                     "1 tablespoon oats (optional for extra exfoliation)"
                 ],
                 "description": "Turmeric has anti-inflammatory and brightening properties, while yogurt contains lactic acid to exfoliate and rejuvenate the skin. This scrub helps improve skin tone, reduces dark spots, and gives a youthful glow.",
-                "how_to_make": "1. Mix the turmeric powder, plain yogurt, and honey in a small bowl until you get a smooth paste. 2. If you want extra exfoliation, add oats and mix again. 3. Gently massage the scrub into your skin in circular motions for 2-3 minutes. 4. Let it sit for 5-10 minutes, then rinse off with warm water. Apply once or twice a week.",
+                "SubImage": TumericYoghurt,
+                "how_to_make": [
+                    "Mix the turmeric powder, plain yogurt, and honey in a small bowl until you get a smooth paste.",
+                    "If you want extra exfoliation, add oats and mix again.",
+                    "Gently massage the scrub into your skin in circular motions for 2-3 minutes.",
+                    "Let it sit for 5-10 minutes, then rinse off with warm water. Apply once or twice a week."
+                ],
                 "affordable_ingredients": "Turmeric powder is inexpensive and available at most grocery stores. Plain yogurt and honey are also kitchen staples. Oats are cheap and easily accessible for added exfoliation.",
                 "skin_benefits": [
                     "Turmeric helps lighten dark spots and evens out skin tone.",
@@ -513,7 +542,14 @@ const RecentPosts =[
                     "1 tablespoon aloe vera gel (optional)"
                 ],
                 "description": "Rice water has been used for centuries to brighten skin and improve its texture. This toner helps balance the skin’s pH, refine pores, and create a youthful, glowing complexion.",
-                "how_to_make": "1. Rinse the rice thoroughly and place it in a bowl. 2. Add the 2 cups of water and let the rice soak for about 30 minutes. 3. After 30 minutes, strain the rice water into a clean bottle. 4. Add rose water and aloe vera gel for extra hydration (optional). 5. Apply the toner to your face using a cotton pad after cleansing, and let it dry naturally. Use daily for brightening and pore tightening.",
+                "SubImage": RiceToner,
+                "how_to_make": [
+                    "Rinse the rice thoroughly and place it in a bowl.",
+                    "Add the 2 cups of water and let the rice soak for about 30 minutes.",
+                    "After 30 minutes, strain the rice water into a clean bottle.",
+                    "Add rose water and aloe vera gel for extra hydration (optional).",
+                    "Apply the toner to your face using a cotton pad after cleansing, and let it dry naturally. Use daily for brightening and pore tightening."
+                ],
                 "affordable_ingredients": "Rice is a staple in many households, and you can easily find it in local markets. Rose water and aloe vera gel are optional additions but are affordable and available in most health stores. This is a very budget-friendly remedy.",
                 "skin_benefits": [
                     "Brightens the complexion and improves skin texture with regular use.",
@@ -529,67 +565,22 @@ const RecentPosts =[
                     "1 tablespoon olive oil"
                 ],
                 "description": "Avocado is rich in healthy fats and vitamins that nourish and hydrate the skin. Combined with honey’s moisture-locking properties and olive oil’s antioxidants, this mask is perfect for dry or dull skin.",
-                "how_to_make": "1. Mash the ripe avocado in a bowl until smooth. 2. Add the honey and olive oil, mixing until well combined. 3. Apply the mask to your face and leave it on for 15-20 minutes. 4. Rinse off with lukewarm water and pat dry with a towel.",
+                "SubImage": AvocadoMask,
+                "how_to_make": [
+                    "Mash the ripe avocado in a bowl until smooth.",
+                    "Add the honey and olive oil, mixing until well combined.",
+                    "Apply the mask to your face and leave it on for 15-20 minutes.",
+                    "Rinse off with lukewarm water and pat dry with a towel."
+                ],
                 "affordable_ingredients": "Avocado is a nutrient-dense fruit and widely available. Honey and olive oil are kitchen staples that are affordable and easy to find.",
                 "skin_benefits": [
                     "Avocado is full of fatty acids, vitamins A, D, and E, which hydrate and nourish the skin.",
                     "Honey locks in moisture and leaves the skin feeling soft and plump.",
                     "Olive oil has antioxidant properties and helps protect the skin from environmental damage."
                 ]
-            },
-            {
-                "name": "Coconut Milk & Almond Oil Rejuvenating Cream",
-                "ingredients": [
-                    "1/2 cup coconut milk",
-                    "2 tablespoons almond oil",
-                    "1 teaspoon honey",
-                    "1/2 teaspoon vitamin E oil"
-                ],
-                "description": "Coconut milk is an excellent source of hydration, while almond oil is rich in vitamins that nourish and soothe the skin. This cream helps with dry skin, offering deep hydration and a smooth texture.",
-                "how_to_make": "1. In a small bowl, combine coconut milk, almond oil, honey, and vitamin E oil. 2. Stir well until the mixture is smooth and fully combined. 3. Store in an airtight container and apply to the skin after a shower or before bed. Use daily for deeply hydrated skin.",
-                "affordable_ingredients": "Coconut milk and almond oil are widely available in health food stores. Vitamin E oil can be found at most pharmacies and is a great addition for its skin-repairing properties.",
-                "skin_benefits": [
-                    "Coconut milk helps hydrate and nourish the skin, preventing dryness and flakiness.",
-                    "Almond oil is rich in vitamin E, an antioxidant that helps protect the skin from damage.",
-                    "Honey locks in moisture and provides a natural glow, while vitamin E helps with skin repair and renewal."
-                ]
-            },
-            {
-                "name": "Jojoba Oil & Rosehip Seed Oil Anti-Aging Serum",
-                "ingredients": [
-                    "2 tablespoons jojoba oil",
-                    "1 tablespoon rosehip seed oil",
-                    "1 drop frankincense essential oil",
-                    "1 drop geranium essential oil"
-                ],
-                "description": "This powerful anti-aging serum combines jojoba oil and rosehip seed oil, which are rich in vitamins and fatty acids to promote skin repair and reduce fine lines. The addition of essential oils helps enhance skin elasticity and radiance.",
-                "how_to_make": "1. In a small dropper bottle, combine jojoba oil and rosehip seed oil. 2. Add frankincense and geranium essential oils. 3. Shake gently to mix the oils. 4. Apply a few drops to your face and neck after cleansing. Use every night for best results.",
-                "affordable_ingredients": "Jojoba and rosehip seed oils are widely available in stores. Frankincense and geranium essential oils can be found at health stores or online.",
-                "skin_benefits": [
-                    "Jojoba oil mimics the skin's natural oils, helping to regulate moisture and protect the skin from dehydration.",
-                    "Rosehip seed oil is rich in vitamins A and C, promoting skin regeneration and reducing the appearance of fine lines and wrinkles.",
-                    "Frankincense and geranium essential oils help to tone and firm the skin, improving elasticity."
-                ]
-            },
-            {
-                "name": "Manuka Honey & Oatmeal Healing Mask",
-                "ingredients": [
-                    "2 tablespoons manuka honey",
-                    "1 tablespoon oatmeal",
-                    "1 teaspoon yogurt",
-                    "1/2 teaspoon turmeric powder (optional)"
-                ],
-                "description": "Manuka honey is known for its antibacterial and healing properties, while oatmeal soothes irritated skin. This mask helps with acne, redness, and inflammation, leaving the skin feeling calm and nourished.",
-                "how_to_make": "1. Blend the oatmeal in a food processor until it becomes a fine powder. 2. Mix the manuka honey, oatmeal, yogurt, and turmeric powder in a bowl until smooth. 3. Apply to the face and leave on for 15-20 minutes. 4. Rinse off with warm water and pat dry.",
-                "affordable_ingredients": "Manuka honey can be found at specialty health food stores. Oatmeal and yogurt are kitchen staples that are affordable and easily sourced.",
-                "skin_benefits": [
-                    "Manuka honey’s antibacterial properties help to prevent acne and promote skin healing.",
-                    "Oatmeal soothes and calms irritated skin, making it great for sensitive or inflamed skin.",
-                    "Turmeric helps to reduce redness and even out skin tone, giving the face a radiant glow."
-                ]
             }
         ]
-    },    
+    },      
     {
         "id": 5,
         "title": "Home Workout Routines Using Local Resources",
@@ -762,6 +753,7 @@ const RecentPosts =[
             {
                 "name": "Fura da Nono (Millet and Fermented Milk Drink)",
                 "description": "Fura da Nono is a traditional drink made from fermented milk (Nono) and millet balls (Fura). It’s a nutritious and hydrating drink, offering protein, probiotics, and essential vitamins. This drink is commonly consumed for breakfast or as a snack.",
+                "SubImage":Fura,
                 "ingredients": [
                     "1 cup millet flour (Fura)",
                     "2 cups fermented milk (Nono)",
@@ -780,6 +772,7 @@ const RecentPosts =[
             {
                 "name": "Coconut Water",
                 "description": "Coconut water is a natural drink packed with electrolytes that help with hydration and replenishment, especially after physical activity. It’s also low in calories and has many health benefits.",
+                "SubImage": CoconutWater,
                 "health_benefits": [
                     "High in potassium, which helps regulate fluid balance and muscle function.",
                     "Contains natural electrolytes, making it a great hydrating drink after exercise.",
@@ -792,6 +785,7 @@ const RecentPosts =[
             {
                 "name": "Palm Wine (Tapping Drink)",
                 "description": "Palm wine is a naturally fermented beverage made from the sap of palm trees. While it’s more of an alcoholic beverage, it’s also a hydrating drink with a slightly sweet flavor.",
+                "SubImage": PalmWine,
                 "health_benefits": [
                     "Contains antioxidants that support cardiovascular health.",
                     "Rich in vitamins and minerals, particularly potassium, magnesium, and zinc.",

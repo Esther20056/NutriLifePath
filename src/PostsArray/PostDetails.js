@@ -61,13 +61,13 @@ function PostDetails() {
           <h5 className='recent-post-items-h5'>Ingredients</h5>
           <ul>
             {item.ingredients.map((benefit, idx) => (
-              <li className='list-text' key={idx}>{benefit}</li>
+              <li className='list-text' key={idx}><p>{benefit}</p></li>
             ))}
           </ul>
           <h5 className='recent-post-items-h5'>Health Benefits</h5>
           <ul>
             {item.health_benefits.map((benefit, idx) => (
-              <li className='list-text' key={idx}>{benefit}</li>
+              <li className='list-text' key={idx}><p>{benefit}</p></li>
             ))}
           </ul>
         </>
@@ -77,13 +77,13 @@ function PostDetails() {
           <h5 className='recent-post-items-h5'>Ingredients</h5>
           <ul>
             {item.ingredients.map((ingredient, idx) => (
-              <li className='list-text' key={idx}>{ingredient}</li>
+              <li className='list-text' key={idx}><p>{ingredient}</p></li>
             ))}
           </ul>
           <h5 className='recent-post-items-h5'>How to Make</h5>
           <ul>
             {item.how_to_make.map((benefit, idx) => (
-              <li className='list-text' key={idx}>{benefit}</li>
+              <li className='list-text' key={idx}><p>{benefit}</p></li>
             ))}
           </ul>
           <h5 className='recent-post-items-h5'>Affordable Ingredients</h5>
@@ -91,7 +91,7 @@ function PostDetails() {
           <h5 className='recent-post-items-h5'>Health Benefits</h5>
           <ul>
             {item.health_benefits.map((benefit, idx) => (
-              <li className='list-text' key={idx}>{benefit}</li>
+              <li className='list-text' key={idx}><p></p></li>
             ))}
           </ul>
         </>
@@ -101,7 +101,7 @@ function PostDetails() {
           <h5 className='recent-post-items-h5'>Ingredients</h5>
           <ul>
             {item.ingredients.map((ingredient, idx) => (
-              <li className='list-text' key={idx}>{ingredient}</li>
+              <li className='list-text' key={idx}><p>{ingredient}</p></li>
             ))}
           </ul>
           <h5 className='recent-post-items-h5'>How to Make</h5>
@@ -111,11 +111,11 @@ function PostDetails() {
             ))}
           </ul> */}
           <h5 className='recent-post-items-h5'>Affordable Ingredients</h5>
-          <p className='list-text'>{item.affordable_ingredients}</p>
+          <p className='list-text'><p>{item.affordable_ingredients}</p></p>
           <h5 className='recent-post-items-h5'>Skin Benefits</h5>
           <ul>
             {item.skin_benefits.map((benefit, idx) => (
-              <li className='list-text' key={idx}>{benefit}</li>
+              <li className='list-text' key={idx}><p>{benefit}</p></li>
             ))}
           </ul>
         </>
@@ -125,7 +125,7 @@ function PostDetails() {
           <h5 className='recent-post-items-h5'>Ingredients</h5>
           <ul>
             {item.ingredients.map((ingredient, idx) => (
-              <li className='list-text' key={idx}>{ingredient}</li>
+              <li className='list-text' key={idx}><p>{ingredient}</p></li>
             ))}
           </ul>
           <h5 className='recent-post-items-h5'>How to Make</h5>
@@ -137,7 +137,7 @@ function PostDetails() {
           <h5 className='recent-post-items-h5'>Skin Benefits</h5>
           <ul>
             {item.hydration_tip.map((benefit, idx) => (
-              <li className='list-text' key={idx}>{benefit}</li>
+              <li className='list-text' key={idx}><p>{benefit}</p></li>
             ))}
           </ul>
         </>

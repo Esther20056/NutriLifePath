@@ -462,7 +462,7 @@ const RecentPosts =[
         "title": "DIY Natural Skincare Remedies",
         "type": "DNSR",
         "description": "In Nigeria, the richness of our natural resources extends to skincare. But the world offers a treasure trove of natural skincare ingredients, from African marula oil to Japanese green tea, each with incredible benefits for the skin. These remedies are chemical-free, sustainable, and effective. Let’s explore their advantages and how to create simple DIY skincare recipes at home using unique global ingredients.",
-        "image": "NDBC",
+        "image": NDBC,
         "skincare_recipes": [
             {
                 "name": "Marula Oil Moisturizing Face Serum",

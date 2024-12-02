@@ -8,41 +8,66 @@ function FruitsAndVegetables() {
       <p>Explore a variety of affordable, healthy, and easily accessible fruits and vegetables, both local and international, that are available in Nigeria. These options can boost your health, enhance your meals, and are great additions to your smoothies, juices, salads, and other dishes.</p>
 
       <section>
-        <h2>1. Local Nigerian Fruits and Vegetables</h2>
-        <p>These fruits and vegetables are locally grown and readily available in Nigerian markets:</p>
-        <ul>
-          <li>
-            <strong>Yam:</strong> A staple food in Nigeria, yam is rich in carbohydrates and provides a good source of energy. It can be boiled, fried, or used in soups like Porridge Yam.
-            <br />
-            <strong>Benefits:</strong> Rich in fiber, potassium, and vitamin C. Helps with digestion and provides long-lasting energy.
-          </li>
-          <li>
-            <strong>Plantain:</strong> A favorite in many Nigerian homes, plantain is a versatile fruit that can be fried, boiled, or grilled. It is a great source of complex carbohydrates.
-            <br />
-            <strong>Benefits:</strong> Rich in vitamins A and C, potassium, and fiber. Promotes heart health and helps regulate blood pressure.
-          </li>
-          <li>
-            <strong>Pawpaw (Papaya):</strong> This tropical fruit is not only delicious but also packed with nutrients. It can be eaten raw or blended into smoothies.
-            <br />
-            <strong>Benefits:</strong> High in antioxidants, vitamins C and A, and enzymes that aid digestion.
-          </li>
-          <li>
-            <strong>Spinach (Ewedu):</strong> A leafy green rich in iron and vitamins, spinach (ewedu) is widely used in Nigerian dishes like Ewedu soup.
-            <br />
-            <strong>Benefits:</strong> Boosts iron levels, supports bone health, and is great for skin health due to its high vitamin A content.
-          </li>
-          <li>
-            <strong>Tomatoes:</strong> A common ingredient in Nigerian stews and soups, tomatoes are affordable and packed with flavor.
-            <br />
-            <strong>Benefits:</strong> Rich in lycopene, vitamin C, and antioxidants that help fight inflammation and protect against certain cancers.
-          </li>
-          <li>
-            <strong>Carrots:</strong> A versatile vegetable that can be used in both savory dishes and smoothies.
-            <br />
-            <strong>Benefits:</strong> High in beta-carotene, which supports eye health and strengthens the immune system.
-          </li>
-        </ul>
-      </section>
+  <h2>1. Local Nigerian Fruits and Vegetables</h2>
+  <p>These fruits and vegetables are locally grown and readily available in Nigerian markets:</p>
+  <ul>
+    <li>
+      <strong>Yam:</strong> A staple food in Nigeria, yam is rich in carbohydrates and provides a good source of energy. It can be boiled, fried, or used in soups like Porridge Yam.
+      <br />
+      <strong>Benefits:</strong> Rich in fiber, potassium, and vitamin C. Helps with digestion and provides long-lasting energy.
+    </li>
+    <li>
+      <strong>Plantain:</strong> A favorite in many Nigerian homes, plantain is a versatile fruit that can be fried, boiled, or grilled. It is a great source of complex carbohydrates.
+      <br />
+      <strong>Benefits:</strong> Rich in vitamins A and C, potassium, and fiber. Promotes heart health and helps regulate blood pressure.
+    </li>
+    <li>
+      <strong>Pawpaw (Papaya):</strong> This tropical fruit is not only delicious but also packed with nutrients. It can be eaten raw or blended into smoothies.
+      <br />
+      <strong>Benefits:</strong> High in antioxidants, vitamins C and A, and enzymes that aid digestion.
+    </li>
+    <li>
+      <strong>Spinach (Ewedu):</strong> A leafy green rich in iron and vitamins, spinach (ewedu) is widely used in Nigerian dishes like Ewedu soup.
+      <br />
+      <strong>Benefits:</strong> Boosts iron levels, supports bone health, and is great for skin health due to its high vitamin A content.
+    </li>
+    <li>
+      <strong>Tomatoes:</strong> A common ingredient in Nigerian stews and soups, tomatoes are affordable and packed with flavor.
+      <br />
+      <strong>Benefits:</strong> Rich in lycopene, vitamin C, and antioxidants that help fight inflammation and protect against certain cancers.
+    </li>
+    <li>
+      <strong>Cucumber:</strong> Easily available and affordable, cucumbers are refreshing and perfect for salads, juices, and as a side dish.
+      <br />
+      <strong>Benefits:</strong> High in water content, helping with hydration and supporting skin health.
+    </li>
+    <li>
+      <strong>Carrots:</strong> A versatile vegetable that can be used in both savory dishes and smoothies.
+      <br />
+      <strong>Benefits:</strong> High in beta-carotene, which supports eye health and strengthens the immune system.
+    </li>
+    <li>
+      <strong>Oranges:</strong> A popular citrus fruit, oranges are sweet, juicy, and commonly found in Nigerian markets. They are great as a snack or in fresh juice.
+      <br />
+      <strong>Benefits:</strong> Rich in vitamin C, which boosts the immune system, and contains antioxidants that protect against cell damage.
+    </li>
+    <li>
+      <strong>Guava:</strong> A tropical fruit often enjoyed raw or in juices, guavas are rich in flavor and nutrients.
+      <br />
+      <strong>Benefits:</strong> High in dietary fiber, vitamin C, and antioxidants. It supports digestion, boosts immunity, and promotes healthy skin.
+    </li>
+    <li>
+      <strong>Avocado:</strong> A creamy fruit, often used in salads or spread on bread, that is becoming increasingly popular in Nigeria.
+      <br />
+      <strong>Benefits:</strong> High in healthy fats, particularly monounsaturated fats, and supports heart health, brain function, and skin health.
+    </li>
+    <li>
+      <strong>Sweet Potatoes:</strong> A nutritious root vegetable commonly boiled, roasted, or used in soups and porridge.
+      <br />
+      <strong>Benefits:</strong> Rich in fiber, vitamin A, and potassium, sweet potatoes are excellent for eye health, digestion, and regulating blood sugar levels.
+    </li>
+  </ul>
+</section>
 
       <section>
         <h2>2. International Fruits and Vegetables Available in Nigeria</h2>
@@ -67,11 +92,6 @@ function FruitsAndVegetables() {
             <strong>Blueberries:</strong> These small, antioxidant-rich berries can be found in supermarkets and are a great addition to smoothies and desserts.
             <br />
             <strong>Benefits:</strong> Improves brain function, fights oxidative stress, and helps maintain heart health.
-          </li>
-          <li>
-            <strong>Cucumber:</strong> Easily available and affordable, cucumbers are refreshing and perfect for salads, juices, and as a side dish.
-            <br />
-            <strong>Benefits:</strong> High in water content, helping with hydration and supporting skin health.
           </li>
           <li>
             <strong>Avocado:</strong> Avocado is increasingly available in major cities and is packed with healthy fats and nutrients.

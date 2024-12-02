@@ -21,7 +21,7 @@ function Footer() {
           <ul className='quick-links'>
             <li>&gt; <Link to="/" style={{ marginLeft: "0.5rem" }}>Home</Link></li>
             <li>&gt; <Link to="/aboutuspage" style={{ marginLeft: "0.5rem" }}>About</Link></li>
-            <li>&gt; <Link to="" style={{ marginLeft: "0.5rem" }}>Contact Us</Link></li>
+            <li>&gt; <Link to="/contact" style={{ marginLeft: "0.5rem" }}>Contact Us</Link></li>
             <li>&gt; <Link to="/signup" style={{ marginLeft: "0.5rem" }}>Register</Link></li>
           </ul>
         </div>

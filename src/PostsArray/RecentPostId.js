@@ -94,7 +94,6 @@ if (!recentPost) {
          ))}
        </>
       )}
-
       {recentPost.type === 'Hydration' && (
          <>
          {recentPost.hydration_tips.map((hydration, index) => (

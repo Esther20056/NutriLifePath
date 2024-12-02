@@ -2,9 +2,7 @@ import NIB from '../Assets/NIB.png'
 import PABA from '../Assets/PABA.png'
 import NGS from '../Assets/NGS.png'
 import NDBC from '../Assets/NDBC.png'
-import NEI from '../Assets/NEI.jpeg'
 import BW from '../Assets/BW.png'
-import Meditating from '../Assets/Meditating.jpeg'
 //   SUPERFOODS IMAGES
 import Ugu from '../SuperFoosImages/Ugu.jpeg'
 import BitterKola from "../SuperFoosImages/BitterKola.jpeg"
@@ -578,132 +576,75 @@ const RecentPosts =[
                     "Honey locks in moisture and leaves the skin feeling soft and plump.",
                     "Olive oil has antioxidant properties and helps protect the skin from environmental damage."
                 ]
+            },
+            {
+                "name": "Oats & Manuka Scrub",
+                "ingredients": [
+                    "2 tablespoons ground oats",
+                    "1 tablespoon manuka honey",
+                    "1 tablespoon coconut oil"
+                ],
+                "description": "Oats are soothing and act as a gentle exfoliant, while manuka honey has antibacterial and moisturizing properties. Coconut oil hydrates and nourishes the skin, making this scrub perfect for sensitive or acne-prone skin.",
+                "SubImage": OatAndManuka,
+                "how_to_make": [
+                    "In a small bowl, combine ground oats, manuka honey, and coconut oil.",
+                    "Mix until you form a paste.",
+                    "Apply the scrub to damp skin and massage gently in circular motions for 2-3 minutes.",
+                    "Rinse off with warm water and pat dry. Use once a week for best results."
+                ],
+                "affordable_ingredients": "Ground oats and coconut oil are commonly available in most grocery stores, while manuka honey may be a bit more expensive but is available at specialty health stores.",
+                "skin_benefits": [
+                    "Oats gently exfoliate and soothe the skin, removing dead skin cells without irritation.",
+                    "Manuka honey hydrates and has antibacterial properties, making it great for acne-prone skin.",
+                    "Coconut oil deeply moisturizes and nourishes the skin."
+                ]
+            },
+            {
+                "name": "Jojoba & Rosehip Oil Hydrating Serum",
+                "ingredients": [
+                    "2 tablespoons jojoba oil",
+                    "2 tablespoons rosehip oil",
+                    "1 drop geranium essential oil (optional)"
+                ],
+                "description": "Jojoba oil is excellent for balancing skin oils, while rosehip oil is packed with vitamins and antioxidants. This serum provides deep hydration and promotes skin regeneration, perfect for dry or aging skin.",
+                "SubImage": JojobaRosehipOil,
+                "how_to_make": [
+                    "Combine jojoba oil and rosehip oil in a small glass dropper bottle.",
+                    "Add a drop of geranium essential oil if you wish to enhance the scent and benefits.",
+                    "Shake well to mix the oils.",
+                    "Apply a few drops to your face after cleansing and gently massage in. Use daily for the best results."
+                ],
+                "affordable_ingredients": "Jojoba and rosehip oils are widely available online or in natural wellness stores. Geranium oil is optional but can add an extra boost of rejuvenating properties.",
+                "skin_benefits": [
+                    "Jojoba oil mimics the skin's natural oils, helping to balance and moisturize the skin.",
+                    "Rosehip oil helps to regenerate skin cells, reduce the appearance of scars, and promote a youthful glow.",
+                    "This serum hydrates and nourishes, making it great for dry, aging, or sensitive skin."
+                ]
+            },
+            {
+                "name": "Coconut & Almond Oil Moisturizing Treatment",
+                "ingredients": [
+                    "1 tablespoon coconut oil",
+                    "1 tablespoon almond oil",
+                    "1 drop lavender essential oil (optional)"
+                ],
+                "description": "Coconut oil provides deep hydration while almond oil is packed with vitamin E to nourish and repair the skin. This moisturizing treatment is perfect for dry or irritated skin.",
+                "SubImage": CoconutAlmond,
+                "how_to_make": [
+                    "Mix coconut oil and almond oil in a small bowl.",
+                    "Add lavender essential oil if you like a soothing fragrance.",
+                    "Massage into your skin after cleansing, focusing on dry or rough areas.",
+                    "Leave it on for 15-20 minutes before rinsing off with lukewarm water."
+                ],
+                "affordable_ingredients": "Coconut and almond oils are widely available at grocery stores or health stores. Lavender oil is optional but affordable if desired.",
+                "skin_benefits": [
+                    "Coconut oil deeply moisturizes and hydrates the skin, leaving it soft and smooth.",
+                    "Almond oil nourishes and repairs, improving the texture of the skin.",
+                    "Lavender oil adds a calming, anti-inflammatory touch."
+                ]
             }
         ]
-    },      
-    {
-        "id": 5,
-        "title": "Home Workout Routines Using Local Resources",
-        "description": "Staying fit doesn’t require expensive gym memberships or fancy equipment. In Nigeria, we can leverage our environment and local resources to create effective home workout routines. This guide offers simple exercises that utilize bodyweight movements and even local sports, making it easy to stay active at home or in public spaces.",
-        "image": NEI,
-        "workout_routines": [
-            {
-                "name": "Bodyweight Circuit Routine",
-                "description": "This bodyweight circuit is perfect for building strength and endurance, and you don’t need any equipment! The exercises focus on using your own body weight as resistance.",
-                "exercises": [
-                    {
-                        "name": "Push-ups",
-                        "sets": "3 sets of 12-15 reps",
-                        "instructions": "Start in a plank position with your hands shoulder-width apart. Lower your body down by bending your elbows, then push back up to starting position. Modify with knee push-ups if needed."
-                    },
-                    {
-                        "name": "Squats",
-                        "sets": "3 sets of 15 reps",
-                        "instructions": "Stand with feet shoulder-width apart. Lower your body as if sitting in a chair, keeping your chest upright. Return to standing."
-                    },
-                    {
-                        "name": "Lunges",
-                        "sets": "3 sets of 10 reps per leg",
-                        "instructions": "Step forward with one leg and lower your body until both knees are bent at 90 degrees. Push back to standing and alternate legs."
-                    },
-                    {
-                        "name": "Plank",
-                        "sets": "3 sets of 30-45 seconds",
-                        "instructions": "Hold a plank position, with your body in a straight line from head to heels. Engage your core and hold for the desired duration."
-                    }
-                ],
-                "description_of_routine": "This circuit workout uses **bodyweight exercises** to build strength in key muscle groups. You can complete this routine anywhere: at home, in a park, or at a public space. No equipment is necessary, making it one of the most versatile and convenient options for staying fit."
-            },
-            {
-                "name": "Using Local Sports for Fitness",
-                "description": "Incorporating local sports and games into your fitness routine not only makes exercising fun, but it also helps build coordination and endurance.",
-                "exercises": [
-                    {
-                        "name": "Football Drills (Soccer)",
-                        "sets": "10-15 minutes of continuous play",
-                        "instructions": "Practice dribbling, shooting, and passing with a ball. Set up a small goal or target and alternate between shooting and passing. This will improve cardiovascular fitness, coordination, and leg strength."
-                    },
-                    {
-                        "name": "Traditional Rope Skipping",
-                        "sets": "3 sets of 2-3 minutes",
-                        "instructions": "Find a long piece of rope or make a simple skipping rope from local materials. Skip for 2-3 minutes, alternating between high knees, regular jumps, and side-to-side jumps."
-                    },
-                    {
-                        "name": "Tug of War",
-                        "sets": "3 sets of 3-5 minutes",
-                        "instructions": "Gather a group of friends and use a sturdy rope for a tug-of-war game. This not only builds upper body strength but also enhances teamwork and stamina."
-                    }
-                ],
-                "description_of_routine": "Local sports such as football, tug of war, and rope skipping are excellent for building cardiovascular endurance, leg strength, and coordination. These activities are perfect for group workouts, and you can do them in open spaces like your backyard or public parks."
-            },
-            {
-                "name": "Resistance Training with Local Resources",
-                "description": "Utilize local resources such as heavy stones, buckets of water, or even large branches to add resistance to your workout. This will help you build strength and muscle tone without the need for a gym.",
-                "exercises": [
-                    {
-                        "name": "Stone Squats",
-                        "sets": "3 sets of 12 reps",
-                        "instructions": "Find a medium to heavy stone. Hold the stone close to your chest with both hands. Lower into a squat while holding the stone, then return to standing."
-                    },
-                    {
-                        "name": "Water Bucket Rows",
-                        "sets": "3 sets of 10 reps per arm",
-                        "instructions": "Fill a large bucket with water or sand. Hold the bucket with one hand and pull it towards your torso, squeezing your shoulder blades together. Alternate between arms."
-                    },
-                    {
-                        "name": "Log Press",
-                        "sets": "3 sets of 10 reps",
-                        "instructions": "Find a sturdy branch or small log. Hold the log at shoulder height, and press it overhead in a controlled motion. This will work your shoulders and arms."
-                    }
-                ],
-                "description_of_routine": "This workout uses **local resources** like stones, buckets, and logs to create **resistance exercises** that are just as effective as weights. These exercises help target specific muscle groups and can be done in any open space."
-            },
-            {
-                "name": "Running & Jogging Trails",
-                "description": "Running and jogging are simple, effective ways to stay fit and explore your local environment. In Nigeria, you can easily find scenic trails in parks, open spaces, or even around your neighborhood.",
-                "exercises": [
-                    {
-                        "name": "Jogging",
-                        "sets": "30 minutes",
-                        "instructions": "Find a smooth surface like a park or street and jog for 30 minutes. Maintain a comfortable pace, focusing on your breathing and endurance."
-                    },
-                    {
-                        "name": "Sprints",
-                        "sets": "5 sets of 30 seconds sprints",
-                        "instructions": "Find an open area and sprint for 30 seconds at full speed. Rest for 1-2 minutes between each sprint."
-                    },
-                    {
-                        "name": "Hill Climbs",
-                        "sets": "5 sets of hill sprints",
-                        "instructions": "If you have access to a hill, sprint uphill for 20-30 seconds. Walk back down and repeat. This builds leg strength and improves cardiovascular health."
-                    }
-                ],
-                "description_of_routine": "Running or jogging outdoors is a great way to stay fit and enjoy nature. Whether you choose to jog on a park trail or sprint up a hill, these exercises are great for cardiovascular fitness and endurance. Plus, you get the added benefit of fresh air!"
-            },
-            {
-                "name": "Yoga and Stretching with Natural Elements",
-                "description": "Yoga and stretching are essential for improving flexibility, reducing stress, and increasing muscle endurance. You can practice yoga outdoors using natural elements like grass, sand, or even a local riverbank.",
-                "exercises": [
-                    {
-                        "name": "Mountain Pose (Tadasana)",
-                        "sets": "3 sets of 30 seconds",
-                        "instructions": "Stand with feet together, arms by your side, and shoulders relaxed. Take deep breaths, reaching your hands toward the sky. This helps improve posture and reduces tension."
-                    },
-                    {
-                        "name": "Tree Pose (Vrksasana)",
-                        "sets": "3 sets of 30 seconds per leg",
-                        "instructions": "Stand on one leg and place the sole of your opposite foot on your inner thigh or calf. Bring your palms together in front of your chest. This pose helps balance and strengthens your core."
-                    },
-                    {
-                        "name": "Warrior Pose (Virabhadrasana)",
-                        "sets": "3 sets of 30 seconds per side",
-                        "instructions": "Stand with feet wide apart, arms extended in line with your shoulders. Bend your front knee while keeping your back leg straight. This pose strengthens the legs and improves balance."
-                    }
-                ],
-                "description_of_routine": "Practice **yoga poses** in open areas like your backyard or local park. Use natural elements like grass or sand to ground your practice, while focusing on flexibility, balance, and stress relief. This routine is calming and strengthens the body holistically."
-            }
-        ]
-    },    
+    },
     {
         "id": 6,
         "type": "Hydration",
@@ -727,7 +668,11 @@ const RecentPosts =[
                     "Can help lower blood pressure and improve heart health when consumed regularly.",
                     "Hydrates effectively, making it a great alternative to plain water on hot days."
                 ],
-                "how_to_make": "1. Rinse the dried hibiscus petals thoroughly. 2. Boil 5 cups of water, then add the petals and simmer for about 10 minutes. 3. Strain the liquid and discard the petals. 4. Add sugar to taste and chill in the fridge. You can also add slices of ginger or pineapple for extra flavor. Serve over ice for a refreshing drink.",
+                "how_to_make": ["Rinse the dried hibiscus petals thoroughly.",
+                    "Boil 5 cups of water, then add the petals and simmer for about 10 minutes.",
+                     "Strain the liquid and discard the petals.",
+                      "Add sugar to taste and chill in the fridge. You can also add slices of ginger or pineapple for extra flavor. Serve over ice for a refreshing drink."
+                ],
                 "affordable_ingredients": "Dried hibiscus petals are widely available in local markets, and sugar and ginger are common kitchen staples."
             },
             {
@@ -747,7 +692,10 @@ const RecentPosts =[
                     "Ginger helps to soothe the stomach and is an anti-inflammatory.",
                     "Contains probiotics that support gut health due to its fermentation process."
                 ],
-                "how_to_make": "1. Rinse the millet or sorghum and soak it in water for 24 hours. 2. After soaking, blend the grains with fresh water and ginger until smooth. 3. Strain the mixture through a fine sieve. 4. Pour the liquid into a pot, add sugar or honey and spices, and cook over medium heat for about 15-20 minutes. Allow it to cool, then refrigerate. Serve chilled.",
+                "how_to_make": ["Rinse the millet or sorghum and soak it in water for 24 hours.", 
+                "After soaking, blend the grains with fresh water and ginger until smooth.",
+                 "Strain the mixture through a fine sieve.", 
+                 "Pour the liquid into a pot, add sugar or honey and spices, and cook over medium heat for about 15-20 minutes. Allow it to cool, then refrigerate. Serve chilled."],
                 "affordable_ingredients": "Millet and sorghum are widely available in Nigerian markets, and ginger, cloves, and sugar are inexpensive ingredients."
             },
             {
@@ -766,176 +714,45 @@ const RecentPosts =[
                     "Millet is a good source of fiber and essential minerals like magnesium and phosphorus.",
                     "Helps maintain hydration while providing a balanced mix of nutrients."
                 ],
-                "how_to_make": "1. Prepare the millet flour by mixing it with water to form dough balls (Fura). 2. Cook the millet balls in water for about 10-15 minutes until soft. 3. Blend the cooked millet with Nono (fermented milk) until smooth. 4. Add sugar and spices, then serve chilled.",
+                "how_to_make": ["Prepare the millet flour by mixing it with water to form dough balls (Fura).", 
+                    "Cook the millet balls in water for about 10-15 minutes until soft.",
+                     "Blend the cooked millet with Nono (fermented milk) until smooth.", 
+                     "Add sugar and spices, then serve chilled."],
                 "affordable_ingredients": "Millet flour is available in local markets, and Nono can be sourced from nearby dairy farms. Sugar and cinnamon are common kitchen ingredients."
             },
             {
                 "name": "Coconut Water",
                 "description": "Coconut water is a natural drink packed with electrolytes that help with hydration and replenishment, especially after physical activity. It’s also low in calories and has many health benefits.",
                 "SubImage": CoconutWater,
+                "ingredients": [
+                    "Fresh Coconut"
+                ],
                 "health_benefits": [
                     "High in potassium, which helps regulate fluid balance and muscle function.",
                     "Contains natural electrolytes, making it a great hydrating drink after exercise.",
                     "Low in calories and sugar, making it a healthy choice for hydration.",
                     "Contains antioxidants that help reduce inflammation and oxidative stress."
                 ],
-                "how_to_make": "Simply crack open a fresh coconut, pour out the water into a clean glass or bottle, and enjoy. It’s best consumed fresh, but can also be stored in the refrigerator for a couple of days.",
+                "how_to_make": ["Simply crack open a fresh coconut, pour out the water into a clean glass or bottle, and enjoy. It’s best consumed fresh, but can also be stored in the refrigerator for a couple of days."],
                 "affordable_ingredients": "Fresh coconuts can be found in many Nigerian markets at affordable prices."
             },
             {
                 "name": "Palm Wine (Tapping Drink)",
                 "description": "Palm wine is a naturally fermented beverage made from the sap of palm trees. While it’s more of an alcoholic beverage, it’s also a hydrating drink with a slightly sweet flavor.",
                 "SubImage": PalmWine,
+                "ingredients": [
+                    "Palm tree sap",
+                    "Banana leaves"
+                ],
                 "health_benefits": [
                     "Contains antioxidants that support cardiovascular health.",
                     "Rich in vitamins and minerals, particularly potassium, magnesium, and zinc.",
                     "Can help with digestion and may have anti-inflammatory properties."
                 ],
-                "how_to_make": "Palm wine is harvested from the sap of the palm tree and fermented naturally. It’s best consumed fresh, as it can spoil quickly. Palm wine vendors are often available in many parts of Nigeria.",
+                "how_to_make":["Palm wine is harvested from the sap of the palm tree and fermented naturally. It’s best consumed fresh, as it can spoil quickly.", "Palm wine vendors are often available in many parts of Nigeria."],
                 "affordable_ingredients": "Palm wine is naturally available from local tapper vendors, though it is more commonly consumed for ceremonial or social purposes."
             }
-        ],
-        "hydration_tip": {
-            "importance_of_hydration": "Hydration is essential for maintaining body temperature, supporting digestion, and promoting healthy skin. In Nigeria’s hot climate, staying hydrated is especially important, as the body loses water through sweat and increased physical activity.",
-            "daily_hydration_goal": "It’s recommended to drink at least 8-10 glasses of water daily, but local beverages like Zobo, Kunu, and Fura da Nono can help you stay hydrated and reap additional health benefits. Make sure to drink a variety of fluids to maintain balance.",
-            "hydration_idea": "Try alternating between water and hydrating local beverages to make your hydration routine more enjoyable and nutritious. These traditional drinks not only refresh you but also offer antioxidants, probiotics, and essential vitamins."
-        }
+        ],      
     },    
-    {
-        "id": 7,
-        "title": "Embracing Wellness: Mindfulness, Seasonal Eating, and Sustainable Living in Nigeria",
-        "description": "In our fast-paced lives, prioritizing well-being is essential for mental and physical health. By integrating mindfulness practices, embracing seasonal produce, and adopting sustainable living tips, we can cultivate a holistic approach to wellness. Here’s how these interconnected themes can enhance your lifestyle in Nigeria.",
-        "image": Meditating,
-        "wellness_components": [
-            {
-                "name": "Mindfulness Practices for Everyday Living",
-                "description": "Mindfulness is about being present in the moment and focusing on the here and now. It helps reduce stress, improve focus, and foster emotional well-being. Integrating mindfulness into your daily routine, whether through meditation, mindful eating, or simply being aware of your surroundings, can lead to greater peace and balance.",
-                "practices": [
-                    {
-                        "name": "Morning Meditation",
-                        "description": "Start your day with 5-10 minutes of meditation. Focus on your breathing, clearing your mind, and setting positive intentions for the day ahead.",
-                        "tips": [
-                            "Find a quiet space in your home or outdoors in nature, like a garden or park.",
-                            "Sit comfortably with your back straight and focus on deep breaths. If your mind wanders, gently bring your focus back to your breath.",
-                            "Use a local app or YouTube videos for guided meditation sessions in Nigerian languages or styles if preferred."
-                        ]
-                    },
-                    {
-                        "name": "Mindful Eating",
-                        "description": "Pay attention to what you're eating and how it makes you feel. Mindful eating involves appreciating each bite, savoring the flavors, and recognizing when you're full.",
-                        "tips": [
-                            "Slow down during meals and take time to really taste your food.",
-                            "Avoid distractions like TV or phones while eating.",
-                            "Pay attention to your hunger cues and stop when you feel satisfied, not overfull."
-                        ]
-                    },
-                    {
-                        "name": "Nature Walks",
-                        "description": "Taking a walk in nature allows you to disconnect from the busyness of life and reconnect with the earth. It can help you feel grounded, reduce stress, and improve mental clarity.",
-                        "tips": [
-                            "Find a nearby park or nature reserve in your area, like the Lekki Conservation Centre or Aso Rock.",
-                            "Focus on the sounds of nature—birds, the wind, or footsteps—while walking.",
-                            "Breathe deeply and focus on the beauty of the natural world around you."
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Seasonal Eating: Embracing Local Produce",
-                "description": "Eating seasonal, locally grown foods helps to support your health, the local economy, and the environment. Seasonal produce is often more affordable, fresher, and richer in nutrients. In Nigeria, you can enjoy a wide variety of fruits and vegetables that peak during different seasons.",
-                "seasonal_produce": [
-                    {
-                        "name": "Plantains",
-                        "season": "All year round",
-                        "benefits": [
-                            "Rich in potassium and magnesium, which helps with muscle function.",
-                            "High in fiber, aiding digestion and promoting satiety.",
-                            "Can be boiled, fried, or grilled for a versatile addition to meals."
-                        ],
-                        "how_to_use": "Plantains can be enjoyed as a snack, added to soups, or served as a side dish in stews. You can also make plantain chips or fried plantain (dodo)."
-                    },
-                    {
-                        "name": "Mangoes",
-                        "season": "April to September",
-                        "benefits": [
-                            "High in Vitamin C, boosting the immune system.",
-                            "Contains antioxidants that protect against cell damage.",
-                            "Supports healthy digestion due to its fiber content."
-                        ],
-                        "how_to_use": "Mangoes are great for smoothies, fruit salads, or eaten fresh. You can also use them in desserts or sauces for savory dishes."
-                    },
-                    {
-                        "name": "Pumpkins (Ife, Egusi)",
-                        "season": "September to February",
-                        "benefits": [
-                            "Rich in vitamins A and C, which promote skin health and immunity.",
-                            "Contains antioxidants that support eye health.",
-                            "High in fiber, which aids digestion and helps with weight management."
-                        ],
-                        "how_to_use": "Pumpkin can be used in stews, soups, or even roasted as a side dish. It can also be blended into smoothies or mashed as a nutritious side."
-                    },
-                    {
-                        "name": "Tamarind (Iced Tamarind Juice)",
-                        "season": "May to September",
-                        "benefits": [
-                            "Rich in antioxidants, Vitamin C, and minerals like magnesium.",
-                            "Helps improve digestion and can reduce inflammation.",
-                            "Hydrates and is a great source of natural energy."
-                        ],
-                        "how_to_use": "Tamarind can be used in beverages like iced tamarind juice or added to sauces for a tangy flavor. You can also blend it into smoothies for a unique taste."
-                    }
-                ]
-            },
-            {
-                "name": "Sustainable Living Practices in Nigeria",
-                "description": "Sustainable living involves making choices that reduce our environmental impact while supporting a healthy and thriving lifestyle. From reducing waste to supporting local farmers and using eco-friendly products, here are some sustainable practices that can help protect the environment while enhancing your well-being.",
-                "practices": [
-                    {
-                        "name": "Support Local Farmers and Markets",
-                        "description": "By purchasing locally grown produce and products, you’re not only supporting small-scale farmers but also reducing the carbon footprint associated with transporting food across long distances.",
-                        "tips": [
-                            "Visit your local farmer’s market or roadside market for fresh, seasonal produce.",
-                            "Look for locally-made goods, from handcrafts to eco-friendly cleaning supplies, to reduce waste and support the community."
-                        ]
-                    },
-                    {
-                        "name": "Reduce Single-Use Plastics",
-                        "description": "Reducing the use of plastics helps cut down on pollution and minimizes waste in landfills. Opting for reusable items like water bottles, shopping bags, and containers can make a big difference.",
-                        "tips": [
-                            "Carry a reusable water bottle or jug with you to avoid purchasing bottled water.",
-                            "Use cloth bags for shopping instead of plastic bags.",
-                            "Choose products with minimal or recyclable packaging whenever possible."
-                        ]
-                    },
-                    {
-                        "name": "Composting Kitchen Waste",
-                        "description": "Composting organic waste like fruit and vegetable scraps helps create nutrient-rich soil for gardening. It reduces the amount of waste that ends up in landfills while supporting sustainable agriculture.",
-                        "tips": [
-                            "Set up a compost bin or heap in your backyard for food scraps, coffee grounds, and yard clippings.",
-                            "Avoid composting meat or dairy, as they can attract pests and slow down the composting process.",
-                            "Use the finished compost in your garden or give it to local farmers."
-                        ]
-                    },
-                    {
-                        "name": "Adopt Energy-Efficient Practices",
-                        "description": "Reducing energy consumption is a key aspect of sustainable living. Using energy-efficient appliances, reducing water usage, and maximizing natural light can help conserve resources and lower utility bills.",
-                        "tips": [
-                            "Switch to LED light bulbs to reduce electricity usage.",
-                            "Limit the use of air conditioning and use fans or natural ventilation instead.",
-                            "Make the most of daylight by opening windows or using mirrors to brighten rooms."
-                        ]
-                    }
-                ]
-            }
-        ],
-        "wellness_tips": {
-            "overall_wellness": "By combining mindfulness, seasonal eating, and sustainable living practices, you can create a more balanced and health-conscious lifestyle. These practices not only nurture your body and mind but also support the environment and local economy.",
-            "mental_health": "Mindfulness helps reduce stress, improve emotional resilience, and enhance focus. In Nigeria, where stress levels can rise due to daily challenges, mindfulness provides an accessible way to maintain mental clarity and emotional balance.",
-            "seasonal_eating_benefits": "Eating foods that are in season provides the body with the nutrients it needs based on the climate, ensuring you’re supporting both your health and local farmers. Seasonal foods are also more affordable and fresher.",
-            "sustainability_benefits": "Adopting sustainable living practices helps conserve resources, reduces waste, and encourages a healthier lifestyle that aligns with environmental stewardship."
-        }
-    }
-    
-
 ]
 export default RecentPosts

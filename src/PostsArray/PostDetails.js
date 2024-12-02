@@ -9,8 +9,6 @@ function PostDetails() {
   if (!recentPost) {
     return <p>Post not found!</p>;
   }
-
-  // Find the specific item based on the type and itemName
   let item = null;
   switch (type) {
     case 'superfood':
@@ -119,29 +117,35 @@ function PostDetails() {
             ))}
           </ul>
         </>
-      )}
-         {type === 'hydrate' && (
-        <>
-          <h5 className='recent-post-items-h5'>Ingredients</h5>
-          <ul>
-            {item.ingredients.map((ingredient, idx) => (
-              <li className='list-text' key={idx}><p>{ingredient}</p></li>
-            ))}
-          </ul>
-          <h5 className='recent-post-items-h5'>How to Make</h5>
-          {/* <ul>
-            {item.how_to_make.map((benefit, idx) => (
-              <li className='list-text' key={idx}>{benefit}</li>
-            ))}
-          </ul> */}
-          <h5 className='recent-post-items-h5'>Skin Benefits</h5>
-          <ul>
-            {item.hydration_tip.map((benefit, idx) => (
-              <li className='list-text' key={idx}><p>{benefit}</p></li>
-            ))}
-          </ul>
-        </>
-      )}
+      )}    
+      {type === 'hydrate' && (
+  <>
+    <h5 className='recent-post-items-h5'>Ingredients</h5>
+    <ul>
+      {item.ingredients?.map((ingredient, idx) => (
+        <li className='list-text' key={idx}><p>{ingredient}</p></li>
+      ))}
+    </ul>
+    <h5 className='recent-post-items-h5'>How to Make</h5>
+    <ul>
+      {item.how_to_make?.map((step, idx) => (
+        <li className='list-text' key={idx}>{step}</li>
+      ))}
+    </ul>
+    <h5 className='recent-post-items-h5'>Health Benefits</h5>
+    <ul>
+      {item.health_benefits?.map((benefit, idx) => (
+        <li className='list-text' key={idx}>{benefit}</li>
+      ))}
+    </ul>
+    <h5 className='recent-post-items-h5'>Tips</h5>
+    <ul>
+    <li>Hydration is essential for maintaining body temperature, supporting digestion, and promoting healthy skin. In Nigeria’s hot climate, staying hydrated is especially important, as the body loses water through sweat and increased physical activity.</li>
+    <li>It’s recommended to drink at least 8-10 glasses of water daily, but local beverages like Zobo, Kunu, and Fura da Nono can help you stay hydrated and reap additional health benefits. Make sure to drink a variety of fluids to maintain balance.</li>
+    <li>Try alternating between water and hydrating local beverages to make your hydration routine more enjoyable and nutritious. These traditional drinks not only refresh you but also offer antioxidants, probiotics, and essential vitamins.</li>
+</ul>
+  </>
+)}    
     </div>
   );
 }

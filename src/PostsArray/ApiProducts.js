@@ -1,4 +1,4 @@
-import EfoRiro from '../Assets/EfoRiro.jpeg'
+import Efo from '../Assets/Efo.jpg'
 import Beans from '../Assets/Beans.png'
 import MoiMoi from '../Assets/MoiMoi.jpeg'
 import Nkwobi from '../Assets/Nkwobi.jpeg'
@@ -7,7 +7,7 @@ const Products = [
     {
         "id": 1,
         "title": "Efo Riro",
-        "image": EfoRiro, 
+        "image": Efo, 
         "description": "Efo Riro is a flavorful Yoruba vegetable soup made with leafy greens, meats, iru, smoked panla fish, and spices. It pairs beautifully with different swallows, rice or boiled plantain",
         "details": "Efo Riro is a vibrant and flavorful Yoruba vegetable soup that showcases the rich culinary traditions of Nigeria. The dish is primarily made with a variety of leafy greens, such as spinach or amaranth, which are sautéed with a blend of onions, tomatoes, and peppers. The soup often includes proteins like assorted meats, smoked panla fish, cow skin (ponmo), and locust beans (iru), adding depth and richness to the dish. Seasoned with spices and a touch of palm oil, Efo Riro is both hearty and nutritious, making it a staple in many Nigerian households. Typically served with rice or pounded yam, this soup is not just a meal but a celebration of flavor and culture.",
         "ingredients": {

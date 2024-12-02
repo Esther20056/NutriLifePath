@@ -1,0 +1,138 @@
+.blog-main-container{
+    padding:3rem 0;
+}
+.blog-post{
+    background-color: #f7fbff;
+    border-radius: 10px;
+    padding:3rem 2rem;
+    margin:3rem auto;
+    width: 90vw;
+    color: var(--SlateBlue);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  } 
+  .blog-post h2 {
+    color: var(--SlateBlue);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .blog-post img {
+    width: 100%;
+    max-width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .blog-post p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post h3 {
+    font-size: 1.2rem;
+    color: var(--SlateBlue);
+    margin-top: 20px;
+    margin-bottom: 5px;
+  } 
+  .blog-post ul, .blog-post ol {
+    margin-left: 20px;
+  } 
+  .blog-post ul li, .blog-post ol li {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .blog-post p {
+    color: var(--SlateBlue);
+  }
+  .blog-post .health-benefits {
+    font-size: 1.2rem;
+    color: var(--SlateBlue);
+    margin-top: 10px;
+  }
+  .contact-us{
+    background-color: #f7fbff;
+    padding:6.5rem 1.8rem;
+    color: var(--SlateBlue);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .contact-h3{
+    color: var(--GoldenYellow);
+  }
+  .contact-p{
+     font-size: 1.1rem;
+     text-align: justify;
+  }
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+  .contact-info-strong{
+    color: var(--GoldenYellow);
+  }
+  .contact-form-main-container{
+    text-align: justify;
+  }
+  .contact-form{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+  }
+  .form-input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  #message, #email, #name,#contact-form-btn{
+    width: 70vw;
+    height: 3.5rem;
+    outline: none;
+    background-color: #f7fbff;
+    border: var(--SlateBlue) 0.5px solid;
+    padding:1rem;
+  }
+  #message{
+    height: 100%;
+  }
+  #contact-form-btn{
+   background-color: var(--GoldenYellow);
+   margin-top: 2rem;
+   color: #f2eecd;
+  }
+  @media (min-width:0px) and (max-width:568px){
+    .blog-post {
+        padding:2.5rem 0.5rem;
+        width: 95vw;
+    }
+    .blog-post ul, .blog-post ol {
+        margin-left: 2px;
+      } 
+      .blog-post .health-benefits {
+        font-size: 1rem;
+      }
+      .blog-post h2{
+        font-size: 1.4rem;
+      }
+      .contact-us{
+        padding:6.5rem 0.8rem;
+      }
+      #message, #email, #name,#contact-form-btn{
+        width: 90vw;
+      }
+  }
+  @media (min-width:569px) and (max-width:768px){
+      .blog-post h2{
+        font-size: 1.7rem;
+      }
+      .contact-us{
+        padding:6.5rem 1rem;
+      }
+      #message, #email, #name,#contact-form-btn{
+        width: 80vw;
+      }
+  }

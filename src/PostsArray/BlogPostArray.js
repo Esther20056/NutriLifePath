@@ -148,7 +148,7 @@ const blogPosts = [
   },
   {
     "id": 6,
-    "title": "Agidi",
+    "title": "Agidi (Eko)",
     "image": Eko, 
     "description": "A firm, savory meal made from corn starch, similar to polenta, often served with soups or stews.",
     "details": "Agidi is made from corn starch and is a popular Nigerian side dish. It is cooked until firm and is typically served with soups, stews, or pepper sauce.",

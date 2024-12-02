@@ -10,10 +10,10 @@ import EfoRiro from './../Assets/EfoRiro.jpeg'
 const blogPosts = [
   {
     "id": 2,
-    "title": "Nigerian Jollof Rice with Chicken",
+    "title": "Nigerian Jollof Rice with Turkey",
     "image": Jollof, 
     "description": "Nigerian Jollof rice is a rich and flavorful dish made with tomatoes, peppers, and spices, served with tender chicken.",
-    "details": "Jollof Rice is a popular Nigerian dish made with rice cooked in a rich tomato-based sauce with onions, peppers, and spices. The rice is slow-cooked to absorb all the flavors. It is typically served with grilled or fried chicken, making it a hearty and satisfying meal enjoyed during festive occasions and family gatherings.",
+    "details": "Jollof Rice is a popular Nigerian dish made with rice cooked in a rich tomato-based sauce with onions, peppers, and spices. The rice is slow-cooked to absorb all the flavors. It is typically served with grilled or fried turkey, making it a hearty and satisfying meal enjoyed during festive occasions and family gatherings.",
     "ingredients": {
       "Rice": {
         "benefit": "Rich in carbohydrates, provides energy."
@@ -27,8 +27,8 @@ const blogPosts = [
           { "name": "Garlic", "benefit": "Contains compounds that help fight infections." }
         ]
       },
-      "chicken": {
-        "description": "Fried or grilled chicken for protein.",
+      "Turkey": {
+        "description": "Fried or grilled turkey for protein.",
         "benefits": {
           "protein": "Helps build and repair muscles.",
           "iron": "Promotes healthy blood cells."
@@ -49,7 +49,7 @@ const blogPosts = [
       "5. Add stock cubes, thyme, and bay leaves, then stir.",
       "6. Add the washed rice to the sauce and stir until the rice is coated with the tomato mixture.",
       "7. Pour in enough water to cook the rice, cover, and let it cook on low heat for 25–30 minutes.",
-      "8. Fry or grill the chicken until crispy and serve alongside the Jollof rice."
+      "8. Fry or grill the turkey until crispy and serve alongside the Jollof rice."
     ],
     "healthBenefits": {
       "general": "A balanced meal with carbohydrates, protein, and healthy fats."
